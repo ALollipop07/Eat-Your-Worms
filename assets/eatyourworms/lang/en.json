@@ -1,0 +1,22 @@
+{
+    "eatyourworms:item-earthworm-piefilling":"Worm Pie Filling",
+
+    "pie-single-eatyourworms:earthworm-piefilling-raw": "Worm pie (raw)",
+    "pie-single-eatyourworms:earthworm-piefilling-partbaked": "Worm pie (partbaked)",
+    "pie-single-eatyourworms:earthworm-piefilling-perfect": "Worm pie",
+
+    "game:recipeingredient-item-creature-insturmentalcase": "worm",
+    "game:meal-ingredient-stew-primary-creature": "Worm",
+    "game:meal-ingredient-stew-secondary-creature": "worm",
+    "game:meal-ingredient-soup-primary-creature": "Worm",
+    "game:meal-ingredient-soup-secondary-creature": "worm",
+    "game:meal-ingredient-stew-primary-earthworm": "Fried worm",
+    "game:meal-ingredient-stew-secondary-earthworm": "fried worm",
+    "game:meal-ingredient-soup-primary-earthworm": "Fried worm",
+    "game:meal-ingredient-soup-prisecondarymary-earthworm": "fried worm",
+    
+    "item-earthworm-cooked": "Fried worm",
+
+    "game:tabname-eatyourworms": "Eat Your Worms",
+    "itemdesc-earthworm-piefilling": "Anyone else's mouth watering?"
+}

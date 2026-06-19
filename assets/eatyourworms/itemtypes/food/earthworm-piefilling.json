@@ -1,0 +1,55 @@
+{
+  "code": "earthworm-piefilling",
+  "shape": {
+    "base": "item/food/worm-filling"
+  },
+    "attributes": {
+    "foodTags": [
+      "meat"
+      ],
+      "nutritionPropsWhenInMeal": {
+      "satiety": 130,
+      "foodcategory": "Protein"
+    },
+    "inPieProperties": {
+      "texture": "eatyourworms:block/food/pie/fill-earthworm",
+      "partType": "Filling",
+      "mixingCodes": [
+        "potpie"
+      ]
+    },
+    "handbook": {
+        "groupBy": ["earthworm-filling"]
+      }
+  },
+  "nutritionProps":{
+    "satiety": 90,
+    "health": 0,
+    "foodcategory": "Protein"
+  },
+  "transitionableProps": [
+    {
+      "type": "Perish",
+		"freshHours": { "avg": 48 },
+		"transitionHours": { "avg": 6 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.5
+    }
+  ],
+  "texture": { 
+    "base": "eatyourworms:block/food/pie/fill-earthworm"
+  },
+  "creativeinventory": {"general": ["*"],"items": ["*"],"eatyourworms": ["*"]},
+  "maxStackSize": 64,
+    "guiTransform": {
+      "rotation": { "x": -33, "y": -42, "z": -180 },
+      "origin": { "x": 0.25, "y": 0, "z": 0 },
+      "scale": 3.86
+  },
+    "tpHandTransform": {
+      "translation": { "x": -0.3, "y": -0.1, "z": 0 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1
+	}
+}
