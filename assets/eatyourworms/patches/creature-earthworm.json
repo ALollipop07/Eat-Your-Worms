@@ -21,7 +21,7 @@
     { 
         "file": "game:itemtypes/creature/creature-earthworm-dead",
         "side": "server",
-        "op": "add",
+        "op": "addmerge",
         "path": "/nutritionProps", 
         "value":{
             "satiety": 10,
