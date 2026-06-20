@@ -1,0 +1,41 @@
+[
+  {
+    "ingredientPattern": "WWW",
+    "ingredients": {
+      "W": {
+        "type": "item",
+        "code": "game:creature-earthwor*",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "eatyourworms:earthworm-piefilling"
+    }
+  },
+  {
+    "ingredientPattern": "WK",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "tags": [
+          "tool-knife"
+        ],
+        "isTool": true
+      },
+      "W": {
+        "type": "item",
+        "code": "game:creature-earthworm"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:creature-earthworm-dead"
+    }
+  }
+]
