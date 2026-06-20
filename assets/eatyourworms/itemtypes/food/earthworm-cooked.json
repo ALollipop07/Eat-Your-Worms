@@ -44,7 +44,7 @@
   "transitionableProps": [
     {
       "type": "Perish",
-      "freshHours": {"avg": 120},
+      "freshHours": {"avg": 48},
       "transitionHours": {"avg": 24},
       "transitionedStack": {"type": "item","code": "rot"},
       "transitionRatio": 0.3
