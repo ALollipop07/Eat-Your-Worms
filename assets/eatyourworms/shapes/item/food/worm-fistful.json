@@ -10,9 +10,6 @@
 	"textureSizes": {
 		"worm": [16,16]
 	},
-	"textures": {
-		"worm": "eatyourworms:block/food/pie/fill-earthworm"
-	},
 	"elements": [
 		{
 			"name": "Origin",
