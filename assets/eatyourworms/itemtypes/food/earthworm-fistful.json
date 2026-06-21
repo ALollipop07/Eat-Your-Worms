@@ -41,6 +41,30 @@
       "groupBy": ["earthworm-fistful"]
     }
   },
+  "behaviors": [
+    {
+    "name": "GroundStorable",
+    "properties": {
+      "layout": "Stacking",
+      "placeRemoveSound": "game:sounds/block/loosestone*",
+      "stackingModel": "item/worm-fistfull-pile",
+      "upSolid": false,
+      "modelItemsToStackSizeRatio": 26,
+      "stackingCapacity": 16,
+      "transferQuantity": 2,
+      "bulkTransferQuantity": 8,
+      "collisionBox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0,
+        "x2": 1,
+        "y2": 0.14,
+        "z2": 1
+      },
+      "cbScaleYByLayer": 0.06
+    }
+  }
+],
   "nutritionPropsByType":{
     "*-raw": {
       "satiety": 90,
