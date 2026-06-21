@@ -144,18 +144,6 @@
     }
   },
   "nutritionPropsByType": {
-    "earthworm-bread-*-partbaked": {
-        "satiety": 120,
-        "foodcategory": "Protein"
-    },
-    "earthworm-bread-*-perfect": {
-        "satiety": 180,
-        "foodcategory": "Protein"
-    },
-    "earthworm-bread-*-charred": {
-        "satiety": 140,
-        "foodcategory": "Protein"
-    },
     "*-flax-partbaked": {
       "satiety": 70,
       "foodcategory": "Grain"

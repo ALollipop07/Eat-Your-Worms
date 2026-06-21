@@ -29,10 +29,6 @@
       "resultCode": "eatyourworms:earthworm-bread-{type}-partbaked"
     },
     "nutritionPropsWhenInMealByType": {
-        "eatyourworms:earthworm-dough-*": {
-            "satiety": 0,
-            "foodcategory": "Protein"
-        },
       "*-flax": {
         "satiety": 120,
         "foodcategory": "Grain"
