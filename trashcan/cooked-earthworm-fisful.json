@@ -1,43 +1,32 @@
 {
-  "code": "earthworm-piefilling",
+  "code": "earthworm-fistful",
   "shape": {
-    "base": "item/food/worm-filling"
+    "base": "item/food/worm-fistful"
   },
     "attributes": {
     "foodTags": [
       "meat"
-      ],
-      "nutritionPropsWhenInMeal": {
-      "satiety": 130,
-      "foodcategory": "Protein"
-    },
-    "inPieProperties": {
-      "texture": "eatyourworms:block/food/pie/fill-earthworm",
-      "partType": "Filling",
-      "mixingCodes": [
-        "potpie"
       ]
     },
     "handbook": {
-        "groupBy": ["earthworm-filling"]
-      }
-  },
+        "groupBy": ["earthworm-fistful", "cooked-earthworm-fistful"]
+    },
   "nutritionProps":{
-    "satiety": 90,
+    "satiety": 180,
     "health": 0,
     "foodcategory": "Protein"
   },
   "transitionableProps": [
     {
       "type": "Perish",
-		"freshHours": { "avg": 48 },
+		"freshHours": { "avg": 36 },
 		"transitionHours": { "avg": 6 },
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 0.5
     }
   ],
   "texture": { 
-    "base": "eatyourworms:block/food/pie/fill-earthworm"
+    "base": "eatyourworms:block/food/pie/fill-earthworm-cooked"
   },
   "creativeinventory": {"general": ["*"],"items": ["*"],"eatyourworms": ["*"]},
   "maxStackSize": 64,

@@ -12,7 +12,23 @@
     "height": 1,
     "output": {
       "type": "item",
-      "code": "eatyourworms:earthworm-piefilling"
+      "code": "eatyourworms:earthworm-fistful-raw"
+    }
+  },
+  {
+    "ingredientPattern": "CCC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "eatyourworms:earthworm-cooked",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "eatyourworms:earthworm-fistful-cooked"
     }
   },
   {

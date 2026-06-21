@@ -54,7 +54,7 @@
             "smeltingType": "cook",
             "smeltedStack": {
                 "type": "item",
-                "code": "eatyourworms:creature-earthworm-cooked"
+                "code": "eatyourworms:earthworm-cooked"
             },
             "requiresContainer": false
         }

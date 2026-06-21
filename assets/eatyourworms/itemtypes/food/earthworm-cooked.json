@@ -20,7 +20,7 @@
     "baitTag": "bait-worm",
     "foodTags": ["meat"],
     "nutritionPropsWhenInMeal": {
-    "satiety": 25,
+    "satiety": 20,
     "foodcategory": "Protein"
     },
     "groundStorageTransform": {
@@ -44,9 +44,9 @@
   "transitionableProps": [
     {
       "type": "Perish",
-      "freshHours": {"avg": 48},
+      "freshHours": {"avg": 36},
       "transitionHours": {"avg": 24},
-      "transitionedStack": {"type": "item","code": "rot"},
+      "transitionedStack": {"type": "item","code": "game:rot"},
       "transitionRatio": 0.3
     }
   ],
