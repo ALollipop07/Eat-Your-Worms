@@ -4,6 +4,11 @@
     
     "eatyourworms:item-earthworm-fistful-cooked":"Fistful of Cooked Worms",
 
+    "eatyourworms:item-earthworm-dough-*": "Worm-Stuffed Dough",
+    "eatyourworms:item-earthworm-bread-*-partbaked": "Worm-Stuffed Bread (partbaked)",
+    "eatyourworms:item-earthworm-bread-*-perfect": "Worm-Stuffed Bread",
+    "eatyourworms:item-earthworm-bread-*-charred": "Worm-Stuffed Bread (charred)",
+
     "pie-single-eatyourworms:earthworm-fistful-raw-raw": "Worm pie (raw)",
     "pie-single-eatyourworms:earthworm-fistful-raw-partbaked": "Worm pie (partbaked)",
     "pie-single-eatyourworms:earthworm-fistful-raw-perfect": "Worm pie",
