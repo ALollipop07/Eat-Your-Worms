@@ -13,12 +13,12 @@
     "game:meal-ingredient-stew-secondary-creature": "worm",
     "game:meal-ingredient-soup-primary-creature": "Worm",
     "game:meal-ingredient-soup-secondary-creature": "worm",
-    "game:meal-ingredient-stew-primary-earthworm": "Fried worm",
-    "game:meal-ingredient-stew-secondary-earthworm": "fried worm",
-    "game:meal-ingredient-soup-primary-earthworm": "Fried worm",
-    "game:meal-ingredient-soup-prisecondarymary-earthworm": "fried worm",
+    "game:meal-ingredient-stew-primary-earthworm": "Cooked worm",
+    "game:meal-ingredient-stew-secondary-earthworm": "cooked worm",
+    "game:meal-ingredient-soup-primary-earthworm": "Cooked worm",
+    "game:meal-ingredient-soup-prisecondarymary-earthworm": "cooked worm",
     
-    "item-earthworm-cooked": "Fried worm",
+    "item-earthworm-cooked": "Cooked worm",
 
     "game:tabname-eatyourworms": "Eat Your Worms"
 }
