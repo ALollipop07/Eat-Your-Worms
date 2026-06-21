@@ -6,27 +6,11 @@
     "value": [
         {
           "type": "item",
-          "code": "creature-earthworm-dead",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm/*",
           "textureMapping": [
             "worm",
             "earthworm"
-          ]
-        }
-    ]
-  },
-  {
-    "file": "game:recipes/cooking/soup",
-    "op": "addmerge",
-    "path": "/ingredients/4/validStacks",
-    "value": [
-        {
-          "type": "item",
-          "code": "eatyourworms:earthworm-cooked",
-          "shapeElement": "bowl/worm/*",
-          "textureMapping": [
-            "worm",
-            "earthworm-cooked"
           ]
         }
     ]

@@ -6,7 +6,7 @@
     "value": [
         {
           "type": "item",
-          "code": "creature-earthworm-dead",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm stew/*",
           "textureMapping": [
             "worm",
@@ -22,7 +22,7 @@
     "value": [
         {
           "type": "item",
-          "code": "creature-earthworm-dead",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm/*",
           "textureMapping": [
             "worm",
@@ -38,60 +38,11 @@
     "value": [
         {
           "type": "item",
-          "code": "creature-earthworm-dead",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm2/*",
           "textureMapping": [
             "worm",
             "earthworm"
-          ]
-        }
-    ]
-  },
-
-  {
-    "file": "game:recipes/cooking/meatystew",
-    "op": "addmerge",
-    "path": "/ingredients/0/validStacks",
-    "value": [
-        {
-          "type": "item",
-          "code": "eatyourworms:earthworm-cooked",
-          "shapeElement": "bowl/worm stew/*",
-          "textureMapping": [
-            "worm",
-            "earthworm-cooked"
-          ]
-        }
-    ]
-  },
-  {
-    "file": "game:recipes/cooking/meatystew",
-    "op": "addmerge",
-    "path": "/ingredients/3/validStacks",
-    "value": [
-        {
-          "type": "item",
-          "code": "eatyourworms:earthworm-cooked",
-          "shapeElement": "bowl/worm/*",
-          "textureMapping": [
-            "worm",
-            "earthworm-cooked"
-          ]
-        }
-    ]
-  },
-  {
-    "file": "game:recipes/cooking/meatystew",
-    "op": "addmerge",
-    "path": "/ingredients/4/validStacks",
-    "value": [
-        {
-          "type": "item",
-          "code": "eatyourworms:earthworm-cooked",
-          "shapeElement": "bowl/worm2/*",
-          "textureMapping": [
-            "worm",
-            "earthworm-cooked"
           ]
         }
     ]

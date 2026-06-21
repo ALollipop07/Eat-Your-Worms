@@ -33,19 +33,6 @@
         "file": "game:itemtypes/creature/creature-earthworm-dead",
         "side": "server",
         "op": "addmerge",
-        "path": "/attributes", 
-        "value":{
-            "foodTags": ["meat"],
-            "nutritionPropsWhenInMeal": {
-            "satiety": 15,
-            "foodcategory": "Protein"
-            }
-        }
-    },
-    { 
-        "file": "game:itemtypes/creature/creature-earthworm-dead",
-        "side": "server",
-        "op": "addmerge",
         "path": "/combustibleProps", 
         "value":{
             "meltingPoint": 150,
