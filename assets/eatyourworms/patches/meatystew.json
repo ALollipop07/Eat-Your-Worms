@@ -6,7 +6,7 @@
     "value": [
         {
           "type": "item",
-          "code": "earthworm-fistful-raw",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm stew/*",
           "textureMapping": [
             "worm",
@@ -22,7 +22,7 @@
     "value": [
         {
           "type": "item",
-          "code": "earthworm-fistful-raw",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm/*",
           "textureMapping": [
             "worm",
@@ -38,7 +38,7 @@
     "value": [
         {
           "type": "item",
-          "code": "earthworm-fistful-raw",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm2/*",
           "textureMapping": [
             "worm",

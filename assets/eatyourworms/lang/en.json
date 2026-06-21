@@ -4,9 +4,9 @@
     
     "eatyourworms:item-earthworm-fistful-cooked":"Fistful of Cooked Worms",
 
-    "pie-single-eatyourworms:earthworm-fistful-raw": "Worm pie (raw)",
-    "pie-single-eatyourworms:earthworm-fistful-partbaked": "Worm pie (partbaked)",
-    "pie-single-eatyourworms:earthworm-fistful-perfect": "Worm pie",
+    "pie-single-eatyourworms:earthworm-fistful-raw-raw": "Worm pie (raw)",
+    "pie-single-eatyourworms:earthworm-fistful-raw-partbaked": "Worm pie (partbaked)",
+    "pie-single-eatyourworms:earthworm-fistful-raw-perfect": "Worm pie",
 
     "game:recipeingredient-item-creature-insturmentalcase": "worm",
     "game:meal-ingredient-stew-primary-creature": "Worm",

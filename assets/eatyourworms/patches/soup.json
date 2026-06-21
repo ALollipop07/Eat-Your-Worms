@@ -6,7 +6,7 @@
     "value": [
         {
           "type": "item",
-          "code": "earthworm-fistful-raw",
+          "code": "eatyourworms:earthworm-fistful-raw",
           "shapeElement": "bowl/worm/*",
           "textureMapping": [
             "worm",
