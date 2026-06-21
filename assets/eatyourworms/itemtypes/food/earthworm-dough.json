@@ -65,26 +65,8 @@
     "base": "eatyourworms:item/food/wormdough"
   },
   "textures": {
-    "flaxbread-dough": {
-      "base": "game:item/food/grain/flaxbread"
-    },
-    "ricebread-dough": {
-      "base": "game:item/food/grain/ricebread"
-    },
-    "speltbread-dough": {
-      "base": "game:item/food/grain/speltbread"
-    },
-    "ryebread-dough": {
-      "base": "game:item/food/grain/ryebread"
-    },
-    "cassava": {
-      "base": "game:item/food/grain/cassavabread"
-    },
-    "amaranth": {
-      "base": "game:item/food/grain/amaranthbread"
-    },
-    "sunflower": {
-      "base": "game:item/food/grain/sunflowerbread"
+    "dough": {
+      "base": "game:item/food/grain/{type}bread"
     }
   },
   "creativeinventory": {
