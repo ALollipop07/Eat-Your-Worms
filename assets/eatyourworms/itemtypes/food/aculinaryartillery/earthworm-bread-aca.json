@@ -1,6 +1,5 @@
 [
     {
-        "enabled": false,
         "code": "earthworm-bread",
         "class": "ExpandedFood",
         "maxstacksize": 32,
