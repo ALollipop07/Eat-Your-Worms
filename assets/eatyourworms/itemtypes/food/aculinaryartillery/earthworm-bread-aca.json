@@ -138,7 +138,7 @@
     },
     "texturesbytype": {
         "*-dough": {
-            "bread": {
+            "dough": {
                 "base": "game:item/food/grain/{type}bread"
             }
         },
