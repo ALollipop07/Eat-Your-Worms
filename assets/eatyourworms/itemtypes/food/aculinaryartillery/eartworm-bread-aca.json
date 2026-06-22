@@ -1,0 +1,236 @@
+[
+    {
+        "enabled": false,
+        "code": "earthworm-bread",
+        "class": "ExpandedFood",
+        "maxstacksize": 32,
+
+        "attributes": {
+            "displaycaseable": true,
+            "handbook": {
+            "groupBy": [
+                "dough-*",
+                "earthworm-bread-*"
+            ]
+            },
+            "expandedNutritionProps": {
+                "game:dough-flax" : { "saturation": 120, "foodcategory": "Grain" },
+                "game:dough-rice" : { "saturation": 280, "foodcategory": "Grain" },
+                "game:dough-*" : { "saturation": 240, "foodcategory": "Grain" },
+                "eatyourworms:earthworm-fistful-raw" : { "saturation": 240, "foodcategory": "Protein" }
+            },
+            "satMultByType": {
+                "*-partbaked": 0.5,
+                "*-cooked": 1,
+                "*-charred": 0.75
+            },
+            "shelvable": true,
+            "displayable": {
+            "shelf": {
+                "size": {
+                "width": 3.5,
+                "height": 2,
+                "length": 5
+                }
+            }
+            },
+            "bakingPropertiesByType": {
+                "*-partbaked": {
+                    "temp": 160,
+                    "levelFrom": 0.25,
+                    "levelTo": 0.5,
+                    "startScaleY": 0.95,
+                    "endScaleY": 1.1,
+                    "resultCode": "eatyourworms:earthworm-bread-{type}-perfect",
+                    "initialCode": "eatyourworms:earthworm-bread-{type}-dough"
+                },
+                "*-perfect": {
+                    "temp": 160,
+                    "levelFrom": 0.5,
+                    "levelTo": 0.75,
+                    "startScaleY": 1.1,
+                    "endScaleY": 1.13,
+                    "resultCode": "eatyourworms:earthworm-bread-{type}-charred",
+                    "initialCode": "eatyourworms:earthworm-bread-{type}-partbaked"
+                },
+                "*-charred": {
+                    "temp": 160,
+                    "levelFrom": 0.75,
+                    "levelTo": 1,
+                    "startScaleY": 1.13,
+                    "endScaleY": 1.1,
+                    "initialCode": "eatyourworms:earthworm-bread-{type}-perfect"
+                }
+            },
+            "nutritionPropsByType": {
+                "*-flax-partbaked": {
+                    "satiety": 70,
+                    "foodcategory": "Grain"
+                },
+                "*-flax-perfect": {
+                    "satiety": 160,
+                    "foodcategory": "Grain"
+                },
+                "*-flax-charred": {
+                    "satiety": 100,
+                    "foodcategory": "Grain"
+                },
+                "*-rice-partbaked": {
+                    "satiety": 160,
+                    "foodcategory": "Grain"
+                },
+                "*-rice-perfect": {
+                    "satiety": 330,
+                    "foodcategory": "Grain"
+                },
+                "*-rice-charred": {
+                    "satiety": 220,
+                    "foodcategory": "Grain"
+                },
+                "*-partbaked": {
+                    "satiety": 150,
+                    "foodcategory": "Grain"
+                },
+                "*-perfect": {
+                    "satiety": 300,
+                    "foodcategory": "Grain"
+                },
+                "*-charred": {
+                    "satiety": 210,
+                    "foodcategory": "Grain"
+                }
+            }
+        },
+
+        "variantgroups": [
+            {
+            "code": "type",
+            "states": [
+                "spelt",
+                "rye",
+                "flax",
+                "rice",
+                "cassava",
+                "amaranth",
+                "sunflower"
+            ]
+            },
+            {
+                "code": "state",
+                "states": [
+                    "dough", 
+                    "partbaked", 
+                    "cooked", 
+                    "charred"
+                ]
+            }
+        ],
+
+        "shape": {
+            "base": "eatyourworms:item/food/wormdough"
+        },
+
+        "textures": {
+            "dough": {
+            "base": "game:item/food/grain/{type}bread"
+            }
+        },
+
+        "creativeinventory": {
+            "general": [
+            "*"
+            ],
+            "items": [
+            "*"
+            ],
+            "eatyourworms": [
+                "*"
+            ]
+        },
+
+        "materialDensity": 200,
+        "combustibleProps": {
+            "meltingPoint": 200,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+            "type": "item",
+            "code": "eatyourworms:earthworm-bread-{type}-charred"
+            },
+            "requiresContainer": false
+        },
+
+
+        "guiTransform": {
+            "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+            },
+            "rotation": {
+            "x": -30,
+            "y": 26,
+            "z": 180
+            },
+            "origin": {
+            "x": 0.52,
+            "y": 0.07,
+            "z": 0.5
+            },
+            "scale": 4.9
+        },
+        "groundTransform": {
+            "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+            },
+            "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+            },
+            "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+            },
+            "scale": 4
+        },
+        "tpHandTransform": {
+            "translation": {
+            "x": -0.69,
+            "y": -0.16,
+            "z": -0.53
+            },
+            "rotation": {
+            "x": 88,
+            "y": -85,
+            "z": 2
+            },
+            "origin": {
+            "x": 0.5,
+            "y": 0.13,
+            "z": 0.5
+            },
+            "scale": 0.8
+        },
+        "transitionableProps": [
+            {
+            "type": "Perish",
+            "freshHours": {
+                "avg": 48
+            },
+            "transitionHours": {
+                "avg": 24
+            },
+            "transitionedStack": {
+                "type": "item",
+                "code": "game:rot"
+            },
+            "transitionRatio": 1
+            }
+        ]
+    }
+]

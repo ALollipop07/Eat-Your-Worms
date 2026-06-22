@@ -1,5 +1,6 @@
 [
   {
+    "enabled": true,
     "ingredientPattern": "WF",
     "ingredients": {
       "W": {
@@ -30,6 +31,5 @@
       "type": "item",
       "code": "eatyourworms:earthworm-dough-{type}"
     }
-  },
-  {"enabled": "false"}
+  }
 ]
