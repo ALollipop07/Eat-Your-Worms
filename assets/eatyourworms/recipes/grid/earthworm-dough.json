@@ -30,5 +30,6 @@
       "type": "item",
       "code": "eatyourworms:earthworm-dough-{type}"
     }
-  }
+  },
+  {"enabled": "false"}
 ]
