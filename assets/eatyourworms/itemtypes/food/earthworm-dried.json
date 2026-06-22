@@ -63,7 +63,7 @@
   },
 
   "shape": {
-    "base": "eatyourworms:item/food/bait-worm"
+    "base": "eatyourworms:item/food/dehydrated-worm"
   },
   "texture": {
     "base": "eatyourworms:block/food/pie/fill-earthworm-crusty"

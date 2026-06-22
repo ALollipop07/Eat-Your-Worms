@@ -4,12 +4,12 @@
     "ingredients": {
       "M": {
         "type": "item",
-        "code": "eatyourworms:earthworm-mash-dry"
+        "code": "eatyourworms:earthworm-mash"
       }
     },
     "width": 1,
     "height": 1,
-    "shapeless": false,
+    "shapeless": true,
     "output": {
       "type": "item",
       "code": "eatyourworms:earthworm-dried"
