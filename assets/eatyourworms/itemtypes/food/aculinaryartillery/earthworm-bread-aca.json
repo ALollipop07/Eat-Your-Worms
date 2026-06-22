@@ -24,7 +24,6 @@
         "displaycaseable": true,
         "handbook": {
         "groupBy": [
-            "dough-*",
             "earthworm-bread-*"
         ]
         },
