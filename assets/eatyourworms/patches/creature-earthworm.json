@@ -35,15 +35,6 @@
         "file": "game:itemtypes/creature/creature-earthworm-dead",
         "side": "server",
         "op": "addmerge",
-        "path": "/behaviors/0/properties", 
-        "value":{
-            "placeRemoveSound": "eatyourworms:sounds/wormsquelch"
-        }
-    },
-    { 
-        "file": "game:itemtypes/creature/creature-earthworm-dead",
-        "side": "server",
-        "op": "addmerge",
         "path": "/combustibleProps", 
         "value":{
             "meltingPoint": 150,
