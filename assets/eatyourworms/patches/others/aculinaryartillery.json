@@ -1,0 +1,18 @@
+[
+    { 
+        "file": "eatyourworms:recipes/kneading/earthworm-dough-knead",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:itemtypes/food/aculinaryartillery/earthworm-bread-aca",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    }
+]
