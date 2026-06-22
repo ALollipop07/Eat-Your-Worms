@@ -3,6 +3,23 @@
     "class": "ExpandedFood",
     "maxstacksize": 32,
 
+    "behaviors": [
+        {
+        "name": "GroundStorable",
+        "properties": {
+            "layout": "Quadrants",
+            "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.125,
+            "z2": 1
+            }
+        }
+        }
+    ],
+
     "attributes": {
         "displaycaseable": true,
         "handbook": {
@@ -67,8 +84,9 @@
                 "endScaleY": 1.1,
                 "initialCode": "eatyourworms:earthworm-bread-{type}-perfect"
             }
-        },
-        "renderIngredientsByType": {
+        }
+        //currently broken in ACA VVVV
+        /*"renderIngredientsByType": {
 			"*-dough": {
 				"game:dough-*": { "shape": "game:shapes/item/food/bread/{type}bread-dough", "name": "type", "textureMap": { "dough": "{type}bread" } },
                 "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormdough.json", "name": "type", "textureMap": { "worm": "raw-worms" } }
@@ -85,10 +103,11 @@
 				"game:dough-*": { "shape": "game:shapes/item/food/bread/{type}bread", "name": "type", "textureMap": { "bread": "{type}bread1" } },
                 "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
 			}
-		}
+		}*/
     },
 
-    "textures": {
+    //currently broken in ACA VVVV
+    /*"textures": {
 		"flaxbread": {"base": "game:item/food/grain/flaxbread" },
 		"ricebread": {"base": "game:item/food/grain/ricebread" },
 		"speltbread": {"base": "game:item/food/grain/speltbread" },
@@ -112,6 +131,27 @@
 		"sunflowerbread2": {"base": "game:item/food/grain/sunflowerbread2" },
         "raw-worms": {"base": "eatyourworms:block/food/meal/earthworm" },
         "cooked-worms": {"base": "eatyourworms:block/food/meal/earthworm-cooked" }
+    },*/
+
+    "shape": {
+    "base": "eatyourworms:item/food/wormbread"
+    },
+    "texturesbytype": {
+        "*-partbaked": {
+            "bread": {
+                "base": "game:item/food/grain/{type}bread2"
+            }
+        },
+        "*-perfect": {
+            "bread": {
+                "base": "game:item/food/grain/{type}bread"
+            }
+        },
+        "*-charred": {
+            "bread": {
+                "base": "game:item/food/grain/{type}bread1"
+            }
+        }
     },
 
     "nutritionPropsByType": {
