@@ -33,6 +33,14 @@
         }
         },
         "bakingPropertiesByType": {
+             "*-dough": {
+                "temp": 160,
+                "levelFrom": 0.0,
+                "levelTo": 0.25,
+                "startScaleY": 0.9,
+                "endScaleY": 0.95,
+                "resultCode": "eatyourworms:earthworm-bread-{type}-partbaked"
+            },
             "*-partbaked": {
                 "temp": 160,
                 "levelFrom": 0.25,
