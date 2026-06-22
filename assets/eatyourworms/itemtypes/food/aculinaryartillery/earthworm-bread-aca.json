@@ -126,7 +126,7 @@
             "states": [
                 "dough", 
                 "partbaked", 
-                "cooked", 
+                "perfect", 
                 "charred"
             ]
         }
