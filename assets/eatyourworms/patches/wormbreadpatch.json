@@ -34,7 +34,7 @@
         "dependencies": {"aculinaryartillery": "*"}
     },
     { 
-        "file": "eatyourworms:itemtypes/food/aculinaryartillery/earthworm-dough-aca",
+        "file": "eatyourworms:itemtypes/food/aculinaryartillery/earthworm-bread-aca",
         "side": "server",
         "op": "addmerge",
         "path": "/enabled",

@@ -21,7 +21,6 @@
     {
       "code": "state",
       "states": [
-        "dough",
         "partbaked",
         "perfect",
         "charred"
