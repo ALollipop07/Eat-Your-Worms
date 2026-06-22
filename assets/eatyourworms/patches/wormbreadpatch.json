@@ -1,0 +1,47 @@
+[
+    { 
+        "file": "eatyourworms:itemtypes/food/earthworm-dough",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps",
+        "value": {
+            "game:dough-flax" : { "saturation": 120, "foodcategory": "Grain" },
+            "game:dough-rice" : { "saturation": 280, "foodcategory": "Grain" },
+            "game:dough-*" : { "saturation": 240, "foodcategory": "Grain" },
+            "eatyourworms:earthworm-fistful-raw" : { "saturation": 240, "foodcategory": "Protein" }
+        },
+        "dependencies": {"expandedfoods": ""}
+    },
+    { 
+        "file": "eatyourworms:itemtypes/food/earthworm-dough",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/attributes/satMultByType",
+        "value": {
+			"*-partbaked": 0.5,
+			"*-cooked": 1,
+			"*-charred": 0.75
+		},
+        "dependencies": {"expandedfoods": ""}
+    },
+    { 
+        "file": "eatyourworms:recipes/grid/earthworm-dough",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/",
+        "value": {
+            "enabled": "false"
+        },
+        "dependencies": {"expandedfoods": ""}
+    },
+    { 
+        "file": "eatyourworms:recipes/kneading/earthworm-dough-knead",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/",
+        "value": {
+            "enabled": "true"
+        },
+        "dependencies": {"expandedfoods": ""}
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+    "ingredients": [
+        {"inputs": [{ "type": "item", "code": "game:dough-*", "quantity": 1, "name": "type" }]},
+        {"inputs": [{ "type": "item", "code": "eatyourworms:earthworm-fistful-raw", "quantity": 1 }]}
+    ],
+        "output": { "type": "item", "code": "eatyourworms:earthworm-dough-{type}", "stackSize": 1}
+
+    },
+    
+    {"enabled": "false"}
+]
