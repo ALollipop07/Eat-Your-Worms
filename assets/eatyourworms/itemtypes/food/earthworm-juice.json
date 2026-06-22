@@ -4,20 +4,23 @@
   "matterState": "liquid",
   "attributes": {
     "handbook": {
-      "ignoreCreativeInvStacks": true
+        "ignoreCreativeInvStacks": true,
+        "groupBy": [
+            "earthworm-juice*"
+      ]
     },
     "waterTightContainerProps": {
       "containable": true,
-      "itemsPerLitre": 64,
+      "itemsPerLitre": 100,
       "texture": {
-        "base": "block/liquid/wormpuree"
+        "base": "eatyourworms:block/liquid/wormpuree"
       },
       "allowSpill": true,
       "whenSpilled": {
         "action": "DropContents",
         "stack": {
           "type": "item",
-          "code": "earthworm-juiceportion"
+          "code": "eatyourworms:earthworm-juiceportion"
         }
       },
       "nutritionPropsPerLitre": {
@@ -34,7 +37,7 @@
     "base": "game:item/liquid"
   },
   "texture": {
-    "base": "block/liquid/wormpuree"
+    "base": "eatyourworms:block/liquid/wormpuree"
   },
   "creativeinventoryStacks": [
     {
@@ -51,7 +54,7 @@
             "ucontents": [
               {
                 "type": "item",
-                "code": "earthworm-juiceportion",
+                "code": "eatyourworms:earthworm-juiceportion",
                 "makefull": true
               }
             ]

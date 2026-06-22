@@ -3,36 +3,63 @@
   "class": "ItemPressedMash",
   "maxstacksize": 64,
   "attributes": {
-    "juiceablePropertiesByType": {
-        "*-wet": {
-            "liquidStack": {
-            "type": "item",
-            "code": "eatyourworms:earthworm-juiceportion",
-            "stacksize": 1
-            },
-            "pressedStack": {
-            "type": "item",
-            "code": "eatyourworms:earthworm-mash-wet",
-            "stacksize": 1
-            },
-            "returnStack": {
-            "type": "item",
-            "code": "eatyourworms:earthworm-mash-dry",
-            "stacksize": 1
-            }
+    "foodTags": [
+      "meatmash"
+    ],
+    "handbook": {
+      "groupBy": [
+        "pressedmash-*"
+      ]
+    },
+    "juiceableProperties": {
+        "liquidStack": {
+        "type": "item",
+        "code": "eatyourworms:earthworm-juiceportion",
+        "stacksize": 1
+        },
+        "pressedStack": {
+        "type": "item",
+        "code": "eatyourworms:earthworm-mash",
+        "stacksize": 1
         }
       
     }
   },
-  "shapeByType": {
-    "*-wet": {"base": "game:item/pressedmash"},
-    "*-dry": {"base": "item/pressedworm"}
+  "shape": {
+    "base": "game:item/pressedmash"
   },
-  "texturesByType": {
-    "*-wet": {"material": {"base": "block/food/pie/fill-earthworm"}},
-    "*-dry": {"material": {"base": "block/food/pie/fill-earthworm-crusty"}}
-    
+  "textures": {
+    "material": {"base": "eatyourworms:block/food/pie/fill-earthworm-crusty"}
   },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "eatyourworms": [
+        "*"
+    ]
+  },
+
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": {
+        "avg": 36
+      },
+      "transitionHours": {
+        "avg": 12
+      },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:rot"
+      },
+      "transitionRatio": 1
+    }
+  ],
+
   "guiTransform": {
     "translation": {
       "x": 0,

@@ -38,7 +38,6 @@
   },
   "nutritionProps":{
     "satiety": 20,
-    "health": 0,
     "foodcategory": "Protein"
   },
   "transitionableProps": [

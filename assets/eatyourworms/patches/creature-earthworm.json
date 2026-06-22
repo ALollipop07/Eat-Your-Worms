@@ -54,7 +54,7 @@
         "op": "addmerge",
         "path": "/attributes/juiceableProperties", 
         "value":{
-            "litresPerItem": 0.064 ,
+            "litresPerItem": 0.078125 ,
             "liquidStack": {
                 "type": "item",
                 "code": "eatyourworms:earthworm-juiceportion",
@@ -62,12 +62,7 @@
             },
             "pressedStack": {
                 "type": "item",
-                "code": "eatyourworms:earthworm-mash-sopping",
-                "stacksize": 1
-            },
-            "returnStack": {
-                "type": "item",
-                "code": "eatyourworms:earthworm-mash-crusty",
+                "code": "eatyourworms:earthworm-mash",
                 "stacksize": 1
             }
         }
@@ -80,8 +75,8 @@
         "value":{
             "name": "Squeezable",
             "properties": {
-                "squeezeTime": 2.0,
-                "squeezedLitres": 0.2,
+                "squeezeTime": 0.2,
+                "squeezedLitres": 0.078125,
                 "returnStacks": [
                 {
                     "type": "item",
@@ -91,6 +86,15 @@
                 ],
                 "liquidItemCode": "eatyourworms:earthworm-juiceportion"
             }
+        }
+    },
+    { 
+        "file": "game:itemtypes/creature/creature-earthworm-dead",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/creativeinventory", 
+        "value":{
+            "eatyourworms": ["*"]
         }
     }
 ]
