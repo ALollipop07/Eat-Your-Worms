@@ -11,7 +11,6 @@
 		"fill-earthworm": [16,16]
 	},
 	"textures": {
-		"fill-earthworm": "eatyourworms:block/food/pie/fill-earthworm"
 	},
 	"elements": [
 		{

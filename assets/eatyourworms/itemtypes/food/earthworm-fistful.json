@@ -47,7 +47,7 @@
     "properties": {
       "layout": "Stacking",
       "placeRemoveSound": "eatyourworms:sounds/wormsquelch",
-      "stackingModel": "item/worm-fistfull-pile",
+      "stackingModel": "item/worm-fistful-pile",
       "upSolid": false,
       "modelItemsToStackSizeRatio": 26,
       "stackingCapacity": 16,
