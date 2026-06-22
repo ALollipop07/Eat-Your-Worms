@@ -28,16 +28,20 @@
         "file": "eatyourworms:recipes/grid/earthworm-dough",
         "side": "server",
         "op": "addmerge",
-        "path": "/enabled",
-        "value": "false",
+        "path": "/-",
+        "value": {
+            "enabled": "false"
+        },
         "dependencies": {"expandedfoods": "*"}
     },
     { 
         "file": "eatyourworms:recipes/kneading/earthworm-dough-knead",
         "side": "server",
         "op": "addmerge",
-        "path": "/enabled",
-        "value": "true",
+        "path": "/-",
+        "value": {
+            "enabled": "true"
+        },
         "dependencies": {"expandedfoods": "*"}
     }
 ]
