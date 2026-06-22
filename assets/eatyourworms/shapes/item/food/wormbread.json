@@ -11,6 +11,7 @@
 		"bread": [16,16]
 	},
 	"textures": {
+		"worm": "eatyourworms:block/food/meal/earthworm-cooked"
 	},
 	"elements": [
 		{
@@ -247,5 +248,35 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "bread",
+			"from": [ 6.25, 0.0, 5.5 ],
+			"to": [ 9.75, 1.5, 10.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#bread", "uv": [ 2.0, 6.0, 5.5, 7.5 ], "rotation": 180 },
+				"east": { "texture": "#bread", "uv": [ 0.0, 6.0, 5.0, 7.5 ] },
+				"south": { "texture": "#bread", "uv": [ 0.5, 6.0, 4.0, 7.5 ] },
+				"west": { "texture": "#bread", "uv": [ 0.0, 6.0, 5.0, 7.5 ] },
+				"up": { "texture": "#bread", "uv": [ 0.5, 1.5, 4.0, 6.5 ] },
+				"down": { "texture": "#bread", "uv": [ 4.0, 0.0, 7.5, 5.0 ] }
+			},
+			"children": [
+				{
+					"name": "bread top",
+					"from": [ 0.5, 1.5, 0.5 ],
+					"to": [ 3.0, 2.0, 4.5 ],
+					"faces": {
+						"north": { "texture": "#bread", "uv": [ 1.0, 1.5, 3.5, 2.0 ] },
+						"east": { "texture": "#bread", "uv": [ 0.5, 2.0, 1.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bread", "uv": [ 1.0, 5.5, 3.5, 6.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bread", "uv": [ 3.5, 2.0, 4.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bread", "uv": [ 1.0, 2.0, 3.5, 6.0 ] },
+						"down": { "texture": "#bread", "uv": [ 4.5, 1.5, 7.0, 5.5 ], "autoUv": false, "snapUv": false, "enabled": false }
+					}
+				}
+			]
 		}
-	]}
+	]
+}
