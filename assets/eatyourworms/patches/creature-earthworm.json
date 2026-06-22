@@ -18,6 +18,8 @@
             "earthworm-cooked": {"base": "eatyourworms:block/food/meal/earthworm-cooked"}
         }
     },
+
+
     { 
         "file": "game:itemtypes/creature/creature-earthworm-dead",
         "side": "server",
@@ -27,6 +29,15 @@
             "satiety": 10,
             "health": 0,
             "foodcategory": "Protein"
+        }
+    },
+    { 
+        "file": "game:itemtypes/creature/creature-earthworm-dead",
+        "side": "both",
+        "op": "addmerge",
+        "path": "/behaviors/0/properties", 
+        "value":{
+            "placeRemoveSound": "eatyourworms:sounds/wormsquelch"
         }
     },
     { 

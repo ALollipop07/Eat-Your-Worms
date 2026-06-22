@@ -11,7 +11,7 @@
 		"fill-earthworm": [16,16]
 	},
 	"textures": {
-		"fill-earthworm": "C:/Users/allis/AppData/Roaming/VintagestoryData/Mods/eatyourworms 1.0.1/assets/eatyourworms/textures/block/food/pie/fill-earthworm"
+		"fill-earthworm": "eatyourworms:block/food/pie/fill-earthworm"
 	},
 	"elements": [
 		{
