@@ -10,6 +10,12 @@
         "earthworm-dough-*"
       ]
     },
+    "expandedNutritionProps": {
+        "game:dough-flax" : { "saturation": 120, "foodcategory": "Grain" },
+        "game:dough-rice" : { "saturation": 280, "foodcategory": "Grain" },
+        "game:dough-*" : { "saturation": 240, "foodcategory": "Grain" },
+        "eatyourworms:earthworm-fistful-raw" : { "saturation": 240, "foodcategory": "Protein" }
+    },
     "shelvable": true,
     "displayable": {
       "shelf": {
