@@ -76,7 +76,7 @@
         "file": "game:itemtypes/creature/creature-earthworm-dead",
         "side": "server",
         "op": "addmerge",
-        "path": "/behavior/0", 
+        "path": "/behavior", 
         "value":{
             "name": "Squeezable",
             "properties": {
