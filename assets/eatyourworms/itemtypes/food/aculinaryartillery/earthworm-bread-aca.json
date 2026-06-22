@@ -177,10 +177,6 @@
         }
     ],
 
-    "shape": {
-        "base": "eatyourworms:item/food/wormdough"
-    },
-
     "creativeinventory": {
         "general": [
         "*"
