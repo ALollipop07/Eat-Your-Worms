@@ -67,8 +67,10 @@
                 "endScaleY": 1.1,
                 "initialCode": "eatyourworms:earthworm-bread-{type}-perfect"
             }
-        },
-        "nutritionPropsByType": {
+        }
+    },
+
+    "nutritionPropsByType": {
             "*-flax-partbaked": {
                 "satiety": 70,
                 "foodcategory": "Grain"
@@ -105,21 +107,20 @@
                 "satiety": 210,
                 "foodcategory": "Grain"
             }
-        }
-    },
+        },
 
     "variantgroups": [
         {
-        "code": "type",
-        "states": [
-            "spelt",
-            "rye",
-            "flax",
-            "rice",
-            "cassava",
-            "amaranth",
-            "sunflower"
-        ]
+            "code": "type",
+            "states": [
+                "spelt",
+                "rye",
+                "flax",
+                "rice",
+                "cassava",
+                "amaranth",
+                "sunflower"
+            ]
         },
         {
             "code": "state",
