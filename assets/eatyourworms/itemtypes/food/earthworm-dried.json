@@ -15,13 +15,6 @@
   ],
 
   "attributes": {
-    "isFishBait": true,
-    "baitTag": "bait-worm",
-    "foodTags": ["meat"],
-    "nutritionPropsWhenInMeal": {
-    "satiety": 15,
-    "foodcategory": "Protein"
-    },
     "displaycaseable": true,
     "displayInsideCrate": true,
     "inContainerTexture": {
@@ -61,6 +54,18 @@
       ]
     }
   },
+  "nutritionProps":{
+      "satiety": 15,
+      "health": 0,
+      "foodcategory": "Protein"
+  },
+  "transitionableProps":[{
+    "type": "Perish",
+		"freshHours": { "avg": 120 },
+		"transitionHours": { "avg": 12 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.5
+  }],
 
   "shape": {
     "base": "eatyourworms:item/food/dehydrated-worm"
