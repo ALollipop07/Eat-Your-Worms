@@ -133,8 +133,27 @@
         "cooked-worms": {"base": "eatyourworms:block/food/meal/earthworm-cooked" }
     },*/
 
-    "shape": {
-    "base": "eatyourworms:item/food/wormbread"
+    "shapeByType": {
+        "*-dough": {
+            "dough": {
+                "base": "eatyourworms:item/food/wormdough"
+            }
+        },
+        "*-partbaked": {
+            "bread": {
+                "base": "eatyourworms:item/food/wormbread"
+            }
+        },
+        "*-perfect": {
+            "bread": {
+                "base": "eatyourworms:item/food/wormbread"
+            }
+        },
+        "*-charred": {
+            "bread": {
+                "base": "eatyourworms:item/food/wormbread"
+            }
+        }
     },
     "texturesbytype": {
         "*-dough": {
