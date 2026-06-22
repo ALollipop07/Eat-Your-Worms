@@ -37,7 +37,7 @@
         "op": "addmerge",
         "path": "/behaviors/0/properties", 
         "value":{
-            "placeRemoveSound": "eatyourworms:sounds/wormsquelch"
+            "placeRemoveSound": "eatyourworms:sounds/wormsquelch*"
         }
     },
     { 
