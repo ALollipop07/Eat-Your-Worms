@@ -70,28 +70,28 @@
         },
         "renderIngredientsByType": {
 			"*-dough": {
-				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "dough": "{type}bread" } },
-                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormdough.json", "name": "type", "textureMap": { "worm": "raw-worms" } }
+				"game:dough-*": { "shape": "game:item/food/{type}bread-dough", "name": "type", "textureMap": { "dough": "{type}bread" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:item/food/wormdough.json", "name": "type", "textureMap": { "worm": "raw-worms" } }
 		    },
 			"*-partbaked": {
-				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread2" } },
-                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
+				"game:dough-*": { "shape": "game:item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread2" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
             },
 			"*-perfect": {
-				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread" } },
-                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
+				"game:dough-*": { "shape": "game:item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
 			},
 			"*-charred": {
-				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread1" } },
-                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
+				"game:dough-*": { "shape": "game:item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread1" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
 			}
 		}
     },
 
     "textures": {
 		"{type}bread": {"base": "game:item/food/grain/{type}bread" },
-        "raw-worms": {"base": "eatyourworms:item/food/wormdough" },
-        "cooked-worms": {"base": "eatyourworms:item/food/wormbread" }
+        "raw-worms": {"base": "eatyourworms:block/food/meal/earthworm" },
+        "cooked-worms": {"base": "eatyourworms:block/food/meal/earthworm-cooked" }
     },
 
     "nutritionPropsByType": {
