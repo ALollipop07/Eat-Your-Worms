@@ -8,5 +8,5 @@
     ],
     "description": "Eat them",
     "version": "1.2.7",
-    "dependencies": {"expandedfoods": "*"}
+    "dependencies": {"aculinaryartillery": "*"}
 }
