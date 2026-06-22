@@ -25,7 +25,7 @@
     }
   },
   "shapeByType": {
-    "*-wet": {"base": "item/pressedmash"},
+    "*-wet": {"base": "game:item/pressedmash"},
     "*-dry": {"base": "item/pressedworm"}
   },
   "texturesByType": {
