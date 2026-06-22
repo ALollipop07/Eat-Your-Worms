@@ -1,0 +1,19 @@
+[
+  {
+    "ingredientPattern": "M",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "earthworm-mash-crusty",
+        "quantity": 3
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "earthworm-dried"
+    }
+  }
+]

@@ -47,5 +47,50 @@
             },
             "requiresContainer": false
         }
+    },
+    { 
+        "file": "game:itemtypes/creature/creature-earthworm-dead",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/attributes/juiceableProperties", 
+        "value":{
+            "litresPerItem": 0.064 ,
+            "liquidStack": {
+                "type": "item",
+                "code": "eatyourworms:earthworm-juiceportion",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "eatyourworms:earthworm-mash-sopping",
+                "stacksize": 1
+            },
+            "returnStack": {
+                "type": "item",
+                "code": "eatyourworms:earthworm-mash-crusty",
+                "stacksize": 1
+            }
+        }
+    },
+    { 
+        "file": "game:itemtypes/creature/creature-earthworm-dead",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/behavior/0", 
+        "value":{
+            "name": "Squeezable",
+            "properties": {
+                "squeezeTime": 2.0,
+                "squeezedLitres": 0.2,
+                "returnStacks": [
+                {
+                    "type": "item",
+                    "code": "eatyourworms:earthworm-dried",
+                    "stacksize": 1
+                }
+                ],
+                "liquidItemCode": "eatyourworms:earthworm-juiceportion"
+            }
+        }
     }
 ]
