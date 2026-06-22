@@ -67,7 +67,31 @@
                 "endScaleY": 1.1,
                 "initialCode": "eatyourworms:earthworm-bread-{type}-perfect"
             }
-        }
+        },
+        "renderIngredientsByType": {
+			"*-dough": {
+				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "dough": "{type}bread" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormdough.json", "name": "type", "textureMap": { "worm": "raw-worms" } }
+		    },
+			"*-partbaked": {
+				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread2" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
+            },
+			"*-perfect": {
+				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
+			},
+			"*-charred": {
+				"game:dough-*": { "shape": "game:shapes/item/food/{type}bread-dough", "name": "type", "textureMap": { "bread": "{type}bread1" } },
+                "eatyourworms:earthworm-fistful-raw": { "shape": "eatyourworms:shapes/item/food/wormbread.json", "name": "type", "textureMap": { "worm": "cooked-worms" } }
+			}
+		}
+    },
+
+    "textures": {
+		"{type}bread": {"base": "game:item/food/grain/{type}bread" },
+        "raw-worms": {"base": "eatyourworms:item/food/wormdough" },
+        "cooked-worms": {"base": "eatyourworms:item/food/wormbread" }
     },
 
     "nutritionPropsByType": {
@@ -135,12 +159,6 @@
 
     "shape": {
         "base": "eatyourworms:item/food/wormdough"
-    },
-
-    "textures": {
-        "dough": {
-        "base": "game:item/food/grain/{type}bread"
-        }
     },
 
     "creativeinventory": {
