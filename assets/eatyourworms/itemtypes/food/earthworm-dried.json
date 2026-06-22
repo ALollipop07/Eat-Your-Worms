@@ -1,0 +1,131 @@
+{
+  "code": "earthworm-dried",
+  
+  "heldRightReadyAnimation": null,
+  "heldTpUseAnimation": null,
+  "maxstacksize": 64,
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Messy12",
+        "collisionBox": {"x1": 0,"y1": 0,"z1": 0,"x2": 1,"y2": 0.125,"z2": 1}
+      }
+    }
+  ],
+
+  "attributes": {
+    "isFishBait": true,
+    "baitTag": "bait-worm",
+    "foodTags": ["meat"],
+    "nutritionPropsWhenInMeal": {
+    "satiety": 15,
+    "foodcategory": "Protein"
+    },
+    "displaycaseable": true,
+    "displayInsideCrate": true,
+    "inContainerTexture": {
+      "base": "eatyourworms:block/food/pie/fill-earthworm-crusty"
+    },
+    "shelvable": true,
+    "displayable": {
+      "shelf": {
+        "size": {
+          "width": 6,
+          "height": 2,
+          "length": 6
+        }
+      }
+    },
+    "onDisplayTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.65
+    },
+    "groundStorageTransform": {
+      "rotation": {
+        "x": 0,
+        "y": 5,
+        "z": 0
+      },
+      "scale": 1.0
+    },
+    "handbook": {
+      "groupBy": [
+        "fishingbait-*",
+        "creature-earthworm",
+        "creature-earthworm-dead"
+      ]
+    }
+  },
+
+  "shape": {
+    "base": "eatyourworms:item/food/dehydrated-worm"
+  },
+  "texture": {
+    "base": "eatyourworms:block/food/pie/fill-earthworm-crusty"
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "eatyourworms": [
+        "*"
+    ]
+  },
+
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 142,
+      "y": 9,
+      "z": 1
+    },
+    "origin": {
+      "x": 0.45,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 3.36
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.5,
+      "y": -1.6,
+      "z": -1.85
+    },
+    "rotation": {
+      "x": 3,
+      "y": -81,
+      "z": -92
+    }
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.17,
+      "z": 0
+    },
+    "rotation": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.2,
+      "z": 0.5299
+    },
+    "scale": 4
+  }
+}
