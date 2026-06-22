@@ -1,0 +1,18 @@
+[
+  {
+    "code": "cider",
+    "sealHours": 168,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "earthworm-juiceportion",
+        "litres": 0.01
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "ciderportion-earthworm",
+      "litres": 0.01
+    }
+  }
+]
