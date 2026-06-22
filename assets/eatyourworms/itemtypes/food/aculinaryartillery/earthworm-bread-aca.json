@@ -137,6 +137,11 @@
     "base": "eatyourworms:item/food/wormbread"
     },
     "texturesbytype": {
+        "*-dough": {
+            "bread": {
+                "base": "game:item/food/grain/{type}bread"
+            }
+        },
         "*-partbaked": {
             "bread": {
                 "base": "game:item/food/grain/{type}bread2"
