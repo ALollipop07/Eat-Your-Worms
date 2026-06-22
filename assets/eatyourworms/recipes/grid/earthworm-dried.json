@@ -4,8 +4,8 @@
     "ingredients": {
       "M": {
         "type": "item",
-        "code": "earthworm-mash-crusty",
-        "quantity": 3
+        "code": "earthworm-mash-dry",
+        "quantity": 1
       }
     },
     "width": 1,

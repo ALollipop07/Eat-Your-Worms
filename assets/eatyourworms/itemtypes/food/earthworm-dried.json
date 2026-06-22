@@ -4,7 +4,7 @@
     "base": "item/food/bait-worm"
   },
   "texture": {
-    "base": "block/food/pie/fill-earthworm-cooked"
+    "base": "block/food/pie/fill-earthworm-crusty"
   },
   "creativeinventory": {
     "general": [
@@ -31,7 +31,7 @@
     "displaycaseable": true,
     "displayInsideCrate": true,
     "inContainerTexture": {
-      "base": "block/food/pie/fill-earthworm-cooked"
+      "base": "block/food/pie/fill-earthworm-crusty"
     },
     "shelvable": true,
     "displayable": {

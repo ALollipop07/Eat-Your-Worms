@@ -2,18 +2,9 @@
   "code": "earthworm-mash",
   "class": "ItemPressedMash",
   "maxstacksize": 64,
-  "variants": [
-    {
-        "code": "wetness",
-        "states": [
-            "sopping",
-            "crusty"
-        ]
-    }
-    ],
   "attributes": {
     "juiceablePropertiesByType": {
-        "*-sopping": {
+        "*-wet": {
             "liquidStack": {
             "type": "item",
             "code": "eatyourworms:earthworm-juiceportion",
@@ -21,12 +12,12 @@
             },
             "pressedStack": {
             "type": "item",
-            "code": "eatyourworms:earthworm-mash-sopping",
+            "code": "eatyourworms:earthworm-mash-wet",
             "stacksize": 1
             },
             "returnStack": {
             "type": "item",
-            "code": "eatyourworms:earthworm-mash-crusty",
+            "code": "eatyourworms:earthworm-mash-dry",
             "stacksize": 1
             }
         }
@@ -34,24 +25,13 @@
     }
   },
   "shapeByType": {
-    "*-sopping": {"base": "item/pressedmash"},
-    "*-crusty": {"base": "item/pressedworm"}
+    "*-wet": {"base": "item/pressedmash"},
+    "*-dry": {"base": "item/pressedworm"}
   },
   "texturesByType": {
-    "*-sopping": {"material": {"base": "block/food/pie/fill-earthworm"}},
-    "*-crusty": {"material": {"base": "block/food/pie/fill-earthworm-crusty"}}
+    "*-wet": {"material": {"base": "block/food/pie/fill-earthworm"}},
+    "*-dry": {"material": {"base": "block/food/pie/fill-earthworm-crusty"}}
     
-  },
-  "creativeinventory": {
-    "general": [
-      "*"
-    ],
-    "items": [
-      "*"
-    ],
-    "eatyourworms": [
-        "*"
-    ]
   },
   "guiTransform": {
     "translation": {
