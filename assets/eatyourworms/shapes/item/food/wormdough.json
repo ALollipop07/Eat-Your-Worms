@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "",
+		"collapsedPaths": ",Root/worms",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -11,7 +11,6 @@
 		"dough": [16,16]
 	},
 	"textures": {
-		"worm": "eatyourworms:block/food/meal/earthworm"
 	},
 	"elements": [
 		{
@@ -246,35 +245,6 @@
 							}
 						}
 					]
-				}
-			]
-		},
-		{
-			"name": "dough",
-			"from": [ 6.25, 0.0, 5.5 ],
-			"to": [ 9.75, 1.5, 10.5 ],
-			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
-			"faces": {
-				"north": { "texture": "#dough", "uv": [ 6.0, 10.0, 9.5, 11.5 ], "snapUv": false },
-				"east": { "texture": "#dough", "uv": [ 6.0, 11.0, 11.0, 12.5 ], "autoUv": false, "snapUv": false },
-				"south": { "texture": "#dough", "uv": [ 8.5, 11.5, 12.0, 13.0 ], "autoUv": false, "snapUv": false },
-				"west": { "texture": "#dough", "uv": [ 5.5, 12.0, 10.5, 13.5 ], "autoUv": false, "snapUv": false },
-				"up": { "texture": "#dough", "uv": [ 1.0, 10.0, 4.5, 15.0 ], "autoUv": false, "snapUv": false },
-				"down": { "texture": "#dough", "uv": [ 5.5, 10.0, 9.0, 15.0 ], "snapUv": false }
-			},
-			"children": [
-				{
-					"name": "dough top",
-					"from": [ 0.5, 1.5, 0.5 ],
-					"to": [ 3.0, 2.0, 4.5 ],
-					"faces": {
-						"north": { "texture": "#dough", "uv": [ 2.0, 10.0, 4.5, 10.5 ], "autoUv": false, "snapUv": false },
-						"east": { "texture": "#dough", "uv": [ 1.0, 10.5, 1.5, 14.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-						"south": { "texture": "#dough", "uv": [ 2.5, 8.5, 5.0, 9.0 ], "autoUv": false, "snapUv": false },
-						"west": { "texture": "#dough", "uv": [ 4.5, 10.5, 5.0, 14.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-						"up": { "texture": "#dough", "uv": [ 1.0, 10.0, 3.5, 14.0 ], "autoUv": false, "snapUv": false },
-						"down": { "texture": "#dough", "uv": [ 5.0, 2.0, 7.5, 6.0 ], "autoUv": false, "snapUv": false }
-					}
 				}
 			]
 		}
