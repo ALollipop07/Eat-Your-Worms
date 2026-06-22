@@ -12,7 +12,8 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "eatyourworms:earthworm-dried"
+      "code": "eatyourworms:earthworm-dried",
+      "quantity": 12
     }
   }
 ]
