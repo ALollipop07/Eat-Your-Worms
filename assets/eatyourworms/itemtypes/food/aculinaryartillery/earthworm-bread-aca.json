@@ -135,27 +135,19 @@
 
     "shapeByType": {
         "*-dough": {
-            "dough": {
-                "base": "eatyourworms:item/food/wormdough"
-            }
+            "base": "eatyourworms:item/food/wormdough"
         },
         "*-partbaked": {
-            "bread": {
-                "base": "eatyourworms:item/food/wormbread"
-            }
+            "base": "eatyourworms:item/food/wormbread"
         },
         "*-perfect": {
-            "bread": {
-                "base": "eatyourworms:item/food/wormbread"
-            }
+            "base": "eatyourworms:item/food/wormbread"
         },
         "*-charred": {
-            "bread": {
-                "base": "eatyourworms:item/food/wormbread"
-            }
+            "base": "eatyourworms:item/food/wormbread"
         }
     },
-    "texturesbytype": {
+    "texturesByType": {
         "*-dough": {
             "dough": {
                 "base": "game:item/food/grain/{type}bread"
