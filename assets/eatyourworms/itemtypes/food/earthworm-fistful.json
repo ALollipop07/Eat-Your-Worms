@@ -46,8 +46,7 @@
     "name": "GroundStorable",
     "properties": {
       "layout": "Stacking",
-      "placeRemoveSound": "game:sounds/block/loosestone*",
-      "stackingModel": "item/worm-fistfull-pile",
+      "stackingModel": "item/worm-fistful-pile",
       "upSolid": false,
       "modelItemsToStackSizeRatio": 26,
       "stackingCapacity": 16,

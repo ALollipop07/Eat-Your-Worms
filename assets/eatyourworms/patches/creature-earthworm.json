@@ -18,6 +18,8 @@
             "earthworm-cooked": {"base": "eatyourworms:block/food/meal/earthworm-cooked"}
         }
     },
+
+
     { 
         "file": "game:itemtypes/creature/creature-earthworm-dead",
         "side": "server",

@@ -1,13 +1,50 @@
 {
-    "eatyourworms:item-earthworm-fistful-raw":"Fistful of Raw Worms",
+    "eatyourworms:item-earthworm-fistful-raw":"Fistful of raw worms",
     "itemdesc-earthworm-fistful-raw": "Anyone else's mouth watering?",
     
-    "eatyourworms:item-earthworm-fistful-cooked":"Fistful of Cooked Worms",
+    "eatyourworms:item-earthworm-fistful-cooked":"Fistful of cooked worms",
+
+
+    "eatyourworms:item-earthworm-bread-spelt-dough": "Worm-stuffed spelt dough",
+    "eatyourworms:item-earthworm-bread-rye-dough": "Worm-stuffed rye dough",
+    "eatyourworms:item-earthworm-bread-flax-dough": "Worm-stuffed flax dough",
+    "eatyourworms:item-earthworm-bread-rice-dough": "Worm-stuffed rice dough",
+    "eatyourworms:item-earthworm-bread-cassava-dough": "Worm-stuffed cassava dough",
+    "eatyourworms:item-earthworm-bread-amaranth-dough": "Worm-stuffed amaranth dough",
+    "eatyourworms:item-earthworm-bread-sunflower-dough": "Worm-stuffed sunflower dough",
+
+    "eatyourworms:item-earthworm-bread-spelt-partbaked": "Worm-stuffed spelt bread (partbaked)",
+    "eatyourworms:item-earthworm-bread-rye-partbaked": "Worm-stuffed rye bread (partbaked)",
+    "eatyourworms:item-earthworm-bread-flax-partbaked": "Worm-stuffed flax bread (partbaked)",
+    "eatyourworms:item-earthworm-bread-rice-partbaked": "Worm-stuffed rice bread (partbaked)",
+    "eatyourworms:item-earthworm-bread-cassava-partbaked": "Worm-stuffed cassava bread (partbaked)",
+    "eatyourworms:item-earthworm-bread-amaranth-partbaked": "Worm-stuffed amaranth bread (partbaked)",
+    "eatyourworms:item-earthworm-bread-sunflower-partbaked": "Worm-stuffed sunflower bread (partbaked)",
+
+    "eatyourworms:item-earthworm-bread-spelt-perfect": "Worm-stuffed spelt bread",
+    "eatyourworms:item-earthworm-bread-rye-perfect": "Worm-stuffed rye bread",
+    "eatyourworms:item-earthworm-bread-flax-perfect": "Worm-stuffed flax bread",
+    "eatyourworms:item-earthworm-bread-rice-perfect": "Worm-stuffed rice bread",
+    "eatyourworms:item-earthworm-bread-cassava-perfect": "Worm-stuffed cassava bread",
+    "eatyourworms:item-earthworm-bread-amaranth-perfect": "Worm-stuffed amaranth bread",
+    "eatyourworms:item-earthworm-bread-sunflower-perfect": "Worm-stuffed sunflower bread",
+
+    "eatyourworms:item-earthworm-bread-spelt-charred": "Worm-stuffed spelt bread (charred)",
+    "eatyourworms:item-earthworm-bread-rye-charred": "Worm-stuffed rye bread (charred)",
+    "eatyourworms:item-earthworm-bread-flax-charred": "Worm-stuffed flax bread (charred)",
+    "eatyourworms:item-earthworm-bread-rice-charred": "Worm-stuffed rice bread (charred)",
+    "eatyourworms:item-earthworm-bread-cassava-charred": "Worm-stuffed cassava bread (charred)",
+    "eatyourworms:item-earthworm-bread-amaranth-charred": "Worm-stuffed amaranth bread (charred)",
+    "eatyourworms:item-earthworm-bread-sunflower-charred": "Worm-stuffed sunflower bread (charred)",
+
 
     "pie-single-eatyourworms:earthworm-fistful-raw-raw": "Worm pie (raw)",
     "pie-single-eatyourworms:earthworm-fistful-raw-partbaked": "Worm pie (partbaked)",
     "pie-single-eatyourworms:earthworm-fistful-raw-perfect": "Worm pie",
     "pie-single-eatyourworms:earthworm-fistful-raw-charred": "Worm pie (charred)",
+
+    "itemdesc-eatyourworms:item-earthworm-*-*-perfect": "Just like mother used to make",
+    "itemdesc-eatyourworms:item-earthworm-*-*-charred": "Congratulations, you burnt it",
 
     "game:recipeingredient-item-creature-insturmentalcase": "worm",
     "game:meal-ingredient-stew-primary-creature": "Worm",

@@ -7,6 +7,6 @@
         "A Lollipop"
     ],
     "description": "Eat them",
-    "version": "1.1.5",
-    "dependencies": {}
+    "version": "1.2.7",
+    "dependencies": {"aculinaryartillery": "*"}
 }
