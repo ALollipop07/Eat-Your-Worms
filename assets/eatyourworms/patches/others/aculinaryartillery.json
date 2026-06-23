@@ -2,7 +2,7 @@
     { 
         "file": "eatyourworms:recipes/kneading/earthworm-dough-knead",
         "op": "add",
-        "path": "/enabled", 
+        "path": "/0/enabled", 
         "value": false,
         "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
     },
