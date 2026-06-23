@@ -1,12 +1,14 @@
 {
     "eatyourworms:item-earthworm-fistful-raw":"Fistful of raw worms",
-     "eatyourworms:item-ciderportion-earthworm":"Wormy cider",
-     "eatyourworms:item-earthworm-juiceportion":"Wormy juice",
-     "eatyourworms:incontainer-item-ciderportion-earthworm":"Wormy cider",
-     "eatyourworms:incontainer-item-earthworm-juiceportion":"Wormy juice",
-     "eatyourworms:item-earthworm-dried":"Dried worms",
-     "eatyourworms:item-earthworm-mash-wet":"Wet wormy mash",
-     "eatyourworms:item-earthworm-mash-dry":"Dry wormy mash",
+    "eatyourworms:item-spiritportion-earthworm":"Wormy brandy",
+    "eatyourworms:item-ciderportion-earthworm":"Wormy cider",
+    "eatyourworms:item-earthworm-juiceportion":"Wormy juice",
+    "eatyourworms:incontainer-item-spiritportion-earthworm":"Wormy brandy",
+    "eatyourworms:incontainer-item-ciderportion-earthworm":"Wormy cider",
+    "eatyourworms:incontainer-item-earthworm-juiceportion":"Wormy juice",
+    "eatyourworms:item-earthworm-dried":"Dried worms",
+    "eatyourworms:item-earthworm-mash-wet":"Wet wormy mash",
+    "eatyourworms:item-earthworm-mash-dry":"Dry wormy mash",
 
     "itemdesc-earthworm-fistful-raw": "Anyone else's mouth watering?",
     

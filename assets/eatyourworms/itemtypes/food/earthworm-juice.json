@@ -63,6 +63,22 @@
       ]
     }
   ],
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": {
+        "avg": 168
+      },
+      "transitionHours": {
+        "avg": 48
+      },
+      "transitionedStack": {
+        "type": "item",
+        "code": "rot"
+      },
+      "transitionRatio": 0.005
+    }
+  ],
   "maxstacksize": 5000,
   "materialDensity": 200,
   "guiTransform": {

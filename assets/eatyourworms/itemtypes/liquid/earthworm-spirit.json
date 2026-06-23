@@ -1,5 +1,5 @@
 {
-  "code": "ciderportion",
+  "code": "spiritportion",
   "class": "ItemLiquidPortion",
   "matterState": "liquid",
   "variantGroups": [
@@ -14,15 +14,15 @@
     "handbook": {
       "ignoreCreativeInvStacks": true,
       "groupBy": [
-        "ciderportion-*"
+        "spiritportion-*"
       ]
     },
     "distillationProps": {
-        "distilledStack": {
-          "type": "item",
-          "code": "eatyourworms:spiritportion-earthworm"
-        },
-        "ratio": 0.1
+      "distilledStack": {
+        "type": "item",
+        "code": "game:alcoholportion"
+      },
+      "ratio": 0.5
     },
     "waterTightContainerProps": {
       "containable": true,
@@ -30,7 +30,7 @@
       "texturebytype": {
         "*": {
           "base": "eatyourworms:block/liquid/wormcider",
-          "alpha": 180
+          "alpha": 100
         }
       },
       "allowSpill": true,
@@ -38,7 +38,7 @@
         "action": "DropContents",
         "stack": {
           "type": "item",
-          "code": "eatyourworms:ciderportion-{type}",
+          "code": "eatyourworms:spiritportion-{type}",
           "states": [
             "earthworm"
           ]
@@ -46,10 +46,8 @@
       },
       "nutritionPropsPerLitre": {
         "satiety": 80,
-        "intoxication": 0.15,
-        "foodcategorybytype": {
-          "*": "Protein"
-        }
+        "intoxication": 1.5,
+        "foodcategory": "NoNutrition"
       }
     }
   },
@@ -58,7 +56,7 @@
   },
   "texture": {
       "base": "eatyourworms:block/liquid/wormcider",
-      "alpha": 180
+      "alpha": 100
   },
   "creativeinventoryStacks": [
     {
@@ -75,7 +73,7 @@
             "ucontents": [
               {
                 "type": "item",
-                "code": "eatyourworms:ciderportion-{type}",
+                "code": "eatyourworms:spiritportion-{type}",
                 "makefull": true
               }
             ]
@@ -110,21 +108,5 @@
       "y": -1,
       "z": -1.4
     }
-  },
-  "transitionableProps": [
-    {
-      "type": "Perish",
-      "freshHours": {
-        "avg": 3360
-      },
-      "transitionHours": {
-        "avg": 48
-      },
-      "transitionedStack": {
-        "type": "item",
-        "code": "rot"
-      },
-      "transitionRatio": 0.005
-    }
-  ]
+  }
 }
