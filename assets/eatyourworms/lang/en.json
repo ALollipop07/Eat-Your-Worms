@@ -6,13 +6,14 @@
     "eatyourworms:incontainer-item-spiritportion-earthworm":"Wormy brandy",
     "eatyourworms:incontainer-item-ciderportion-earthworm":"Wormy cider",
     "eatyourworms:incontainer-item-earthworm-juiceportion":"Wormy juice",
-    "eatyourworms:item-earthworm-dried":"Dried worms",
     "eatyourworms:item-earthworm-mash-wet":"Wet wormy mash",
     "eatyourworms:item-earthworm-mash-dry":"Dry wormy mash",
 
     "itemdesc-earthworm-fistful-raw": "Anyone else's mouth watering?",
     
     "eatyourworms:item-earthworm-fistful-cooked":"Fistful of cooked worms",
+    "eatyourworms:item-earthworm-fistful-dried":"Fistful of dried worms",
+    "eatyourworms:item-earthworm-fistful-charred":"Fistful of charred worms",
 
 
     "eatyourworms:item-earthworm-bread-spelt-dough": "Worm-stuffed spelt dough",
@@ -66,7 +67,11 @@
     "game:meal-ingredient-soup-primary-earthworm": "Cooked worm",
     "game:meal-ingredient-soup-prisecondarymary-earthworm": "cooked worm",
     
-    "item-earthworm-cooked": "Cooked worm",
+    "eatyourworms:item-earthworm-cooked": "Cooked worm",
+    "eatyourworms:item-earthworm-dried":"Dried worms",
+    "eatyourworms:item-earthworm-charred": "Charred worm",
+
+    "itemdesc-eatyourworms:item-earthworm-charred": "No one likes charred worm...",
 
     "game:tabname-eatyourworms": "Eat Your Worms"
 }
