@@ -8,7 +8,6 @@
   "textureHeight": 16,
   "textureSizes": {},
   "textures": {
-    "cooked": "game:item/food/meat/cooked"
   },
   "elements": [
     {
