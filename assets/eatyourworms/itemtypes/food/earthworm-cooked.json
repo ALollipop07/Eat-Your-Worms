@@ -1,8 +1,17 @@
 {
-  "code": "earthworm-cooked",
+  "code": "earthworm",
   "heldRightReadyAnimation": null,
   "heldTpUseAnimation": null,
   "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "cooked",
+        "charred"
+      ]
+    }
+  ],
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -12,6 +21,10 @@
       }
     }
   ],
+  "textureByType": {
+    "*-cooked": { "base": "game:item/food/meat/cooked"},
+    "*-charred": { "base": "eatyourworms:block/food/pie/fill-earthworm-charred" }
+  },
   "shape": {
     "base": "eatyourworms:item/food/bait-worm"
   },
@@ -19,9 +32,9 @@
     "isFishBait": true,
     "baitTag": "bait-worm",
     "foodTags": ["meat"],
-    "nutritionPropsWhenInMeal": {
-    "satiety": 20,
-    "foodcategory": "Protein"
+    "nutritionPropsWhenInMealByType": {
+      "*-cooked": [{ "satiety": 20,  "foodcategory": "Protein" }],
+      "*-charred": [{ "satiety": 10,  "foodcategory": "Protein" }]
     },
     "groundStorageTransform": {
       "rotation": {"x": 0,"y": -29,"z": 0},
@@ -32,23 +45,32 @@
         "fishingbait-*",
         "creature-earthworm",
         "creature-earthworm-dead",
-        "earthworm-cooked"
+        "earthworm-cooked",
+        "earthworm-charred"
       ]
     }
   },
-  "nutritionProps":{
-    "satiety": 20,
-    "foodcategory": "Protein"
+  "nutritionPropsByType":{
+    "*-cooked": { "satiety": 20,  "foodcategory": "Protein" },
+    "*-charred": { "satiety": 10,  "foodcategory": "Protein" }
   },
-  "transitionableProps": [
-    {
-      "type": "Perish",
-      "freshHours": {"avg": 36},
-      "transitionHours": {"avg": 24},
-      "transitionedStack": {"type": "item","code": "game:rot"},
-      "transitionRatio": 0.3
-    }
-  ],
+  "transitionablePropsByType": {
+    "*-cooked": [{ "type": "Perish","freshHours": {"avg": 48}, "transitionHours": {"avg": 24}, "transitionedStack": {"type": "item","code": "game:rot"}, "transitionRatio": 0.3 }],
+    "*-charred": [{ "type": "Perish","freshHours": {"avg": 120}, "transitionHours": {"avg": 24}, "transitionedStack": {"type": "item","code": "game:rot"}, "transitionRatio": 0.3 }]
+  },
+  "combustiblePropsByType": {
+      "*-cooked": {
+            "meltingPoint": 150,
+            "meltingDuration": 45,
+            "smeltedRatio": 1,
+            "smeltingType": "cook",
+            "smeltedStack": {
+              "type": "item",
+              "code": "eatyourworms:earthworm-charred"
+            },
+            "requiresContainer": false
+      }
+  },
   "creativeinventory": {"general": ["*"],"items": ["*"],"creatures": ["*"],"tools": ["*"],"eatyourworms": ["*"]},
   "guiTransform": {
     "rotation": {"x": -52,"y": 1,"z": 4},

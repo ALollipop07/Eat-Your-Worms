@@ -15,6 +15,7 @@
       "code": "eatyourworms:earthworm-fistful-raw"
     }
   },
+
   {
     "ingredientPattern": "CCC",
     "ingredients": {
@@ -31,6 +32,42 @@
       "code": "eatyourworms:earthworm-fistful-cooked"
     }
   },
+
+  {
+    "ingredientPattern": "DDD",
+    "ingredients": {
+      "D": {
+        "type": "item",
+        "code": "eatyourworms:earthworm-dried",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "eatyourworms:earthworm-fistful-dried"
+    }
+  },
+
+  {
+    "ingredientPattern": "CCC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "eatyourworms:earthworm-charred",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "eatyourworms:earthworm-fistful-charred"
+    }
+  },
+
+
   {
     "ingredientPattern": "WK",
     "ingredients": {

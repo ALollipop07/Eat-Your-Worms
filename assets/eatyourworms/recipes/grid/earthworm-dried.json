@@ -13,7 +13,8 @@
     "output": {
       "type": "item",
       "code": "eatyourworms:earthworm-dried",
-      "quantity": 12
+      "quantity": 4
+      //1 'dried worm' is equal to 3 worms THAT HAVE BEEN DRIED
     }
   }
 ]
