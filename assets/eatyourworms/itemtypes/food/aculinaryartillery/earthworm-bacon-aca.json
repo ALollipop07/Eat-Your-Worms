@@ -19,8 +19,7 @@
   "attributes": {
     "foodTags": ["meat"],
     "groundStorageTransform": {
-      "rotation": {"x": 0,"y": -29,"z": 0},
-      "origin": {"x": 0.5,"y": 0,"z": 0.5}
+      "translation": { "x": 0.5, "y": 0, "z": 0.5 }
     },
     "handbook": {
       "groupBy": [
@@ -28,13 +27,15 @@
         "creature-earthworm-dead",
         "earthworm-bacon"
       ]
-    },
-    "expandedNutritionProps": {
-            "game:creature-earthworm-dead" : { "saturation": 20, "health": 0, "foodcategory": "Protein" },
-            "game:fat-rendered" : { "saturation": 10, "health": 0.5, "foodcategory": "Protein" },
-            "game:oilportion" : { "saturation": 10, "health": 0.5, "foodcategory": "Protein" }
-        }
+    }
   },
+
+  "nutritionProps": {
+    "satiety": 30,
+    "health": 0.5,
+    "foodcategory": "Protein"
+  },
+
   "transitionableProps": [{
     "type": "Perish",
     "freshHours": {"avg": 48}, 
@@ -43,15 +44,15 @@
     "transitionRatio": 0.3
   }],
   "creativeinventory": {"general": ["*"],"items": ["*"], "eatyourworms": ["*"]},
-  "guiTransform": {
-    "rotation": {"x": -52,"y": 1,"z": 4},
-    "origin": {"x": 0.5,"y": 0,"z": 0.5},
-    "scale": 6
+ "guiTransform": {
+    "rotation": {"x": -66,"y": 1,"z": 4},
+    "origin": {"x": 0.3,"y": 3.7,"z": -1.6},
+    "scale": 4.66
   },
   "groundTransform": {
-    "translation": {"x": 15,"y": 1,"z": 0},
-    "rotation": {"x": -52,"y": 20,"z": 0},
-    "origin": {"x": 0.48,"y": 0.89,"z": -0.57},
+    "translation": {"x": 0,"y": 0,"z": 0},
+    "rotation": {"x": 0,"y": 0,"z": 0},
+    "origin": {"x": 0.5,"y": 0,"z": 0.5},
     "scale": 5
   },
   "tpHandTransform": {
