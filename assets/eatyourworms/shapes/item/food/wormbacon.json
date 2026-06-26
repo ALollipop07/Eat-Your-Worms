@@ -7,142 +7,163 @@
 	"textureWidth": 8,
 	"textureHeight": 8,
 	"textureSizes": {
-		"fill-earthworm-bacon.png": [32, 32]
+		"fill-earthworm-bacon.png": [32,32]
 	},
 	"textures": {
 	},
 	"elements": [
 		{
 			"name": "wormbacon",
-			"from": [15.85, -0.2, 15.9],
-			"to": [15.85, -0.2, 15.9],
-			"rotationOrigin": [15.85, -0.2, 15.9],
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
 			"children": [
 				{
 					"name": "upper",
-					"from": [2, 0, -0.7],
-					"to": [2, 0, -0.7],
-					"rotationOrigin": [2, 0, -0.7],
+					"from": [ 2.0, 0.0, -0.7 ],
+					"to": [ 2.0, 0.0, -0.7 ],
+					"rotationOrigin": [ 2.0, 0.0, -0.7 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
 					"children": [
 						{
 							"name": "wormpart1",
-							"from": [0.60216, 0.00006, 0.12461],
-							"to": [2.10216, 0.40006, 0.72461],
-							"rotationOrigin": [0.7, 0, 0.8],
+							"from": [ 0.6022, 1.0E-4, 0.1246 ],
+							"to": [ 2.1022, 0.4001, 0.7246 ],
+							"shade": false,
+							"rotationOrigin": [ 0.7, 0.0, 0.8 ],
+							"rotationX": 0.0608,
+							"rotationY": 70.0,
+							"rotationZ": -0.1549,
 							"faces": {
-								"north": {"texture": "#fill-earthworm-bacon.png", "uv": [11.25, 6, 16, 7.25], "autoUv": false, "snapUv": false},
-								"east": {"texture": "#fill-earthworm-bacon.png", "uv": [12.5, 5, 16.75, 7], "autoUv": false, "snapUv": false},
-								"south": {"texture": "#fill-earthworm-bacon.png", "uv": [10.5, 6, 15.25, 7.25], "autoUv": false, "snapUv": false},
-								"west": {"texture": "#fill-earthworm-bacon.png", "uv": [12.75, 6, 17, 7.25], "autoUv": false, "snapUv": false},
-								"up": {"texture": "#fill-earthworm-bacon.png", "uv": [11, 4.75, 15.75, 7], "autoUv": false, "snapUv": false},
-								"down": {"texture": "#fill-earthworm-bacon.png", "uv": [12, 6.5, 16.75, 7.75], "rotation": 180, "autoUv": false, "snapUv": false}
-							},
-							"rotationX": 0.06079,
-							"rotationY": 69.99997,
-							"rotationZ": -0.15494,
-							"shade": false
+								"north": { "texture": "#fill-earthworm-bacon.png", "uv": [ 11.25, 6.0, 16.0, 7.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#fill-earthworm-bacon.png", "uv": [ 12.5, 5.0, 16.75, 7.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#fill-earthworm-bacon.png", "uv": [ 10.5, 6.0, 15.25, 7.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#fill-earthworm-bacon.png", "uv": [ 12.75, 6.0, 17.0, 7.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#fill-earthworm-bacon.png", "uv": [ 11.0, 4.75, 15.75, 7.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#fill-earthworm-bacon.png", "uv": [ 12.0, 6.5, 16.75, 7.75 ], "rotation": 180, "autoUv": false, "snapUv": false }
+							}
 						},
 						{
 							"name": "wormpart2",
-							"from": [-2.03891, -0.0079, 1.18259],
-							"to": [-0.53891, 0.3921, 1.78259],
-							"rotationOrigin": [-0.7, 0, 1.3],
+							"from": [ -2.0389, -0.0079, 1.1826 ],
+							"to": [ -0.5389, 0.3921, 1.7826 ],
+							"shade": false,
+							"rotationOrigin": [ -0.7, 0.0, 1.3 ],
+							"rotationX": 179.9355,
+							"rotationY": -21.0,
+							"rotationZ": -179.9432,
 							"faces": {
-								"north": {"texture": "#fill-earthworm-bacon.png", "uv": [20.25, 13, 23, 15.25], "autoUv": false, "snapUv": false},
-								"east": {"texture": "#fill-earthworm-bacon.png", "uv": [14.5, 11, 16.75, 13.25], "autoUv": false, "snapUv": false},
-								"south": {"texture": "#fill-earthworm-bacon.png", "uv": [9.5, 12, 12.25, 14.25], "autoUv": false, "snapUv": false},
-								"west": {"texture": "#fill-earthworm-bacon.png", "uv": [14.75, 12, 17, 14.25], "autoUv": false, "snapUv": false},
-								"up": {"texture": "#fill-earthworm-bacon.png", "uv": [21, 3.75, 23.75, 6], "autoUv": false, "snapUv": false},
-								"down": {"texture": "#fill-earthworm-bacon.png", "uv": [14, 12.5, 16.75, 14.75], "rotation": 180, "autoUv": false, "snapUv": false}
-							},
-							"rotationX": 179.93554,
-							"rotationY": -21.00003,
-							"rotationZ": -179.94324,
-							"shade": false
+								"north": { "texture": "#fill-earthworm-bacon.png", "uv": [ 20.25, 13.0, 23.0, 15.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#fill-earthworm-bacon.png", "uv": [ 14.5, 11.0, 16.75, 13.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#fill-earthworm-bacon.png", "uv": [ 9.5, 12.0, 12.25, 14.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#fill-earthworm-bacon.png", "uv": [ 14.75, 12.0, 17.0, 14.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#fill-earthworm-bacon.png", "uv": [ 21.0, 3.75, 23.75, 6.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#fill-earthworm-bacon.png", "uv": [ 14.0, 12.5, 16.75, 14.75 ], "rotation": 180, "autoUv": false, "snapUv": false }
+							}
 						},
 						{
 							"name": "wormpart3",
-							"from": [-3.3, 0, 0.9],
-							"to": [-1.8, 0.4, 1.5],
-							"rotationOrigin": [-2, 0, 0.9],
-							"faces": {
-								"north": {"texture": "#fill-earthworm-bacon.png", "uv": [11.5, 13, 15.75, 19.75], "rotation": 270, "autoUv": false, "snapUv": false},
-								"east": {"texture": "#fill-earthworm-bacon.png", "uv": [13.75, 13, 18, 19.25], "rotation": 270, "autoUv": false, "snapUv": false},
-								"south": {"texture": "#fill-earthworm-bacon.png", "uv": [12.25, 13, 16.5, 19.75], "rotation": 270, "autoUv": false, "snapUv": false},
-								"west": {"texture": "#fill-earthworm-bacon.png", "uv": [13.5, 12, 17.75, 18.25], "rotation": 270, "autoUv": false, "snapUv": false},
-								"up": {"texture": "#fill-earthworm-bacon.png", "uv": [16.25, 18.5, 12, 13.75], "rotation": 270, "autoUv": false, "snapUv": false},
-								"down": {"texture": "#fill-earthworm-bacon.png", "uv": [17.25, 20.25, 13, 13.5], "rotation": 90, "autoUv": false, "snapUv": false}
-							},
+							"from": [ -3.3, 0.0, 0.9 ],
+							"to": [ -1.8, 0.4, 1.5 ],
+							"shade": false,
+							"rotationOrigin": [ -2.0, 0.0, 0.9 ],
 							"rotationX": 0.1,
 							"rotationY": 156.5,
-							"shade": false
+							"faces": {
+								"north": { "texture": "#fill-earthworm-bacon.png", "uv": [ 11.5, 13.0, 15.75, 19.75 ], "rotation": 270, "autoUv": false, "snapUv": false },
+								"east": { "texture": "#fill-earthworm-bacon.png", "uv": [ 13.75, 13.0, 18.0, 19.25 ], "rotation": 270, "autoUv": false, "snapUv": false },
+								"south": { "texture": "#fill-earthworm-bacon.png", "uv": [ 12.25, 13.0, 16.5, 19.75 ], "rotation": 270, "autoUv": false, "snapUv": false },
+								"west": { "texture": "#fill-earthworm-bacon.png", "uv": [ 13.5, 12.0, 17.75, 18.25 ], "rotation": 270, "autoUv": false, "snapUv": false },
+								"up": { "texture": "#fill-earthworm-bacon.png", "uv": [ 16.25, 18.5, 12.0, 13.75 ], "rotation": 270, "autoUv": false, "snapUv": false },
+								"down": { "texture": "#fill-earthworm-bacon.png", "uv": [ 17.25, 20.25, 13.0, 13.5 ], "rotation": 90, "autoUv": false, "snapUv": false }
+							}
 						}
 					]
 				},
 				{
 					"name": "lower",
-					"from": [0, 0, -0.35],
-					"to": [0, 0, -0.35],
-					"rotationOrigin": [0, 0, -0.35],
-					"rotationY": 46,
+					"from": [ 0.0, 0.0, -0.35 ],
+					"to": [ 0.0, 0.0, -0.35 ],
+					"rotationOrigin": [ 0.0, 0.0, -0.35 ],
+					"rotationY": 46.0,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
 					"children": [
 						{
 							"name": "wormpart1",
-							"from": [-4.12167, -0.0098, -0.15005],
-							"to": [-2.62167, 0.3902, 0.44995],
-							"rotationOrigin": [-2.7, 0, -0.1],
+							"from": [ -4.1217, -0.0098, -0.15 ],
+							"to": [ -2.6217, 0.3902, 0.45 ],
+							"shade": false,
+							"rotationOrigin": [ -2.7, 0.0, -0.1 ],
+							"rotationX": 0.003,
+							"rotationY": 70.0,
+							"rotationZ": 0.0976,
 							"faces": {
-								"north": {"texture": "#fill-earthworm-bacon.png", "uv": [5.5, 7, 9.25, 9.25], "autoUv": false, "snapUv": false},
-								"east": {"texture": "#fill-earthworm-bacon.png", "uv": [7.75, 7, 11, 9.25], "autoUv": false, "snapUv": false},
-								"south": {"texture": "#fill-earthworm-bacon.png", "uv": [13.25, 10, 17, 12.25], "autoUv": false, "snapUv": false},
-								"west": {"texture": "#fill-earthworm-bacon.png", "uv": [7.5, 6, 10.75, 8.25], "autoUv": false, "snapUv": false},
-								"up": {"texture": "#fill-earthworm-bacon.png", "uv": [8.75, 8, 5, 5.75], "autoUv": false, "snapUv": false},
-								"down": {"texture": "#fill-earthworm-bacon.png", "uv": [9.75, 8.75, 6, 6.5], "rotation": 180, "autoUv": false, "snapUv": false}
-							},
-							"rotationX": 0.00297,
-							"rotationY": 70,
-							"rotationZ": 0.09758,
-							"shade": false
+								"north": { "texture": "#fill-earthworm-bacon.png", "uv": [ 5.5, 7.0, 9.25, 9.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.75, 7.0, 11.0, 9.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#fill-earthworm-bacon.png", "uv": [ 13.25, 10.0, 17.0, 12.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.5, 6.0, 10.75, 8.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#fill-earthworm-bacon.png", "uv": [ 8.75, 8.0, 5.0, 5.75 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#fill-earthworm-bacon.png", "uv": [ 9.75, 8.75, 6.0, 6.5 ], "rotation": 180, "autoUv": false, "snapUv": false }
+							}
 						},
 						{
 							"name": "wormpart2",
-							"from": [-1.56109, 0.00209, -0.98259],
-							"to": [-0.06109, 0.40209, -0.38259],
-							"rotationOrigin": [-1.4, 0, -0.5],
+							"from": [ -1.5611, 0.0021, -0.9826 ],
+							"to": [ -0.0611, 0.4021, -0.3826 ],
+							"shade": false,
+							"rotationOrigin": [ -1.4, 0.0, -0.5 ],
+							"rotationX": -179.9367,
+							"rotationY": -18.0,
+							"rotationZ": 179.9397,
 							"faces": {
-								"north": {"texture": "#fill-earthworm-bacon.png", "uv": [24.5, 13, 27.75, 17.75], "rotation": 90, "autoUv": false, "snapUv": false},
-								"east": {"texture": "#fill-earthworm-bacon.png", "uv": [7.75, 9, 12, 12.25], "autoUv": false, "snapUv": false},
-								"south": {"texture": "#fill-earthworm-bacon.png", "uv": [10.25, 10, 13.5, 14.75], "rotation": 270, "autoUv": false, "snapUv": false},
-								"west": {"texture": "#fill-earthworm-bacon.png", "uv": [7.5, 8, 11.75, 11.25], "autoUv": false, "snapUv": false},
-								"up": {"texture": "#fill-earthworm-bacon.png", "uv": [21.25, 10.5, 18, 5.75], "rotation": 90, "autoUv": false, "snapUv": false},
-								"down": {"texture": "#fill-earthworm-bacon.png", "uv": [11.75, 12.75, 7, 9.5], "rotation": 180, "autoUv": false, "snapUv": false}
-							},
-							"rotationX": -179.93672,
-							"rotationY": -18.00003,
-							"rotationZ": 179.93969,
-							"shade": false
+								"north": { "texture": "#fill-earthworm-bacon.png", "uv": [ 24.5, 13.0, 27.75, 17.75 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"east": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.75, 9.0, 12.0, 12.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#fill-earthworm-bacon.png", "uv": [ 10.25, 10.0, 13.5, 14.75 ], "rotation": 270, "autoUv": false, "snapUv": false },
+								"west": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.5, 8.0, 11.75, 11.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#fill-earthworm-bacon.png", "uv": [ 21.25, 10.5, 18.0, 5.75 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"down": { "texture": "#fill-earthworm-bacon.png", "uv": [ 11.75, 12.75, 7.0, 9.5 ], "rotation": 180, "autoUv": false, "snapUv": false }
+							}
 						},
 						{
 							"name": "wormpart3",
-							"from": [-0.3, -0.01, -0.7],
-							"to": [1.2, 0.39, -0.1],
-							"rotationOrigin": [-0.1, 0, -0.1],
-							"faces": {
-								"north": {"texture": "#fill-earthworm-bacon.png", "uv": [7.25, 7, 11, 9.25], "autoUv": false, "snapUv": false},
-								"east": {"texture": "#fill-earthworm-bacon.png", "uv": [7.5, 5, 10.75, 7.25], "autoUv": false, "snapUv": false},
-								"south": {"texture": "#fill-earthworm-bacon.png", "uv": [5.5, 6, 9.25, 8.25], "autoUv": false, "snapUv": false},
-								"west": {"texture": "#fill-earthworm-bacon.png", "uv": [7.75, 6, 11, 8.25], "autoUv": false, "snapUv": false},
-								"up": {"texture": "#fill-earthworm-bacon.png", "uv": [7, 5.75, 10.75, 7], "autoUv": false, "snapUv": false},
-								"down": {"texture": "#fill-earthworm-bacon.png", "uv": [7, 6.5, 10.75, 8.75], "rotation": 180, "autoUv": false, "snapUv": false}
-							},
+							"from": [ -0.3, -0.01, -0.7 ],
+							"to": [ 1.2, 0.39, -0.1 ],
+							"shade": false,
+							"rotationOrigin": [ -0.1, 0.0, -0.1 ],
 							"rotationX": -0.1,
 							"rotationY": 155.5,
-							"shade": false
+							"faces": {
+								"north": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.25, 7.0, 11.0, 9.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.5, 5.0, 10.75, 7.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#fill-earthworm-bacon.png", "uv": [ 5.5, 6.0, 9.25, 8.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.75, 6.0, 11.0, 8.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.0, 5.75, 10.75, 7.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#fill-earthworm-bacon.png", "uv": [ 7.0, 6.5, 10.75, 8.75 ], "rotation": 180, "autoUv": false, "snapUv": false }
+							}
 						}
 					]
 				}
 			]
 		}
-	],
-	"animations": []
-}
+	]}
