@@ -49,13 +49,13 @@
     "scale": 6
   },
   "groundTransform": {
-    "translation": {"x": 0,"y": 0,"z": 0},
-    "rotation": {"x": 0,"y": 0,"z": 0},
-    "origin": {"x": 0.5,"y": 0,"z": 0.5},
+    "translation": {"x": 15,"y": 1,"z": 0},
+    "rotation": {"x": -52,"y": 20,"z": 0},
+    "origin": {"x": 0.48,"y": 0.89,"z": -0.57},
     "scale": 5
   },
   "tpHandTransform": {
-    "translation": {"x": -0.7799,"y": -0.63,"z": -0.6},
+    "translation": {"x": -0.7799,"y": 0.7,"z": -0.6},
     "rotation": {"x": 90,"y": -37,"z": 0},
     "origin": {"x": 0.5,"y": 0,"z": 0.5},
     "scale": 0.8
