@@ -90,37 +90,35 @@
             "eatyourworms": ["*"]
         },
         "dependsOn": [{ "modid": "primitivesurvival"}]
-    }
-    ,
-    { 
-        "file": "primitivesurvival:itemtypes/entity/land/nightcrawler",
-        "side": "server",
-        "op": "addmerge",
-        "path": "/transitionableProps", 
-        "value":{
-            "type": "dry",
-            "freshHours": { "avg": 24 },
-            "transitionHours": { "avg": 24 },
-            "transitionedStack": { "type": "item", "code": "eatyourworms:earthworm-dried" },
-            "transitionRatio": 0.5
-    
-        },
-        "dependsOn": [{ "modid": "primitivesurvival"}]
     },
+
     { 
-        "file": "primitivesurvival:itemtypes/entity/land/nightcrawler",
-        "side": "server",
+        "file": "eatyourworms:recipes/grid/earthworm-fistful",
         "op": "addmerge",
-        "path": "/bakingProperties", 
-        "value":{
-            "temp": 160,
-            "levelFrom": 0.25,
-            "levelTo": 0.5,
-            "startScaleY": 0.95,
-            "endScaleY": 1.1,
-            "resultCode": "primitivesurvival:nightcrawler",
-            "initialCode": "eatyourworms:earthworm-dried"
+        "path": "/-", 
+        "value": {
+           "ingredientPattern": "WK",
+            "ingredients": {
+            "K": {
+                "type": "item",
+                "tags": [
+                "tool-knife"
+                ],
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "primitivesurvival:nightcrawler"
+            }
+            },
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "output": {
+            "type": "item",
+            "code": "game:creature-earthworm-dead"
+            }
         },
-        "dependsOn": [{ "modid": "primitivesurvival"}]
+        "dependsOn": [ { "modid": "primitivesurvival"} ]
     }
 ]
