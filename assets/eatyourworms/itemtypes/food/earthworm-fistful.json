@@ -11,7 +11,8 @@
         "raw",
         "cooked",
         "dried",
-        "charred"
+        "charred",
+        "jerky"
       ]
     }
   ],
@@ -30,10 +31,14 @@
       "foodcategory": "Protein"
     },
     "*-dried": {
-      "satiety": 195,
+      "satiety": 150,
       "foodcategory": "Protein"
     },
     "*-charred": {
+      "satiety": 100,
+      "foodcategory": "Protein"
+    },
+    "*-jerky": {
       "satiety": 150,
       "foodcategory": "Protein"
     }
@@ -61,6 +66,26 @@
                 "stacksize": 1
             }
           }
+    },
+    "bakingPropertiesByType": {
+      "*-raw": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "eatyourworms:earthworm-fistful-dried",
+        "initialCode": "eatyourworms:earthworm-fistful-raw"
+      },
+      "*-dried": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "eatyourworms:earthworm-fistful-jerky",
+        "initialCode": "eatyourworms:earthworm-fistful-dried"
+      }
     },
   "handbook": {
       "groupBy": ["earthworm-fistful"]
@@ -111,15 +136,27 @@
       "satiety": 90,
       "health": 0,
       "foodcategory": "Protein"
+    },
+    "*-jerky": {
+      "satiety": 135,
+      "foodcategory": "Protein"
     }
   },
   "transitionablePropsByType": {
     "*-raw": [{
     "type": "Perish",
-		"freshHours": { "avg": 48 },
+		"freshHours": { "avg": 96 },
 		"transitionHours": { "avg": 6 },
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 0.5
+  },
+  {
+    "type": "dry",
+    "freshHours": { "avg": 24 },
+    "transitionHours": { "avg": 48 },
+    "transitionedStack": { "type": "item", "code": "eatyourworms:earthworm-fistful-dried" },
+    "transitionRatio": 0.5
+    
   }],
   "*-cooked": [{
     "type": "Perish",
@@ -134,11 +171,24 @@
 		"transitionHours": { "avg": 6 },
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 0.5
-  }],
+  },
+    {"type": "dry",
+		"freshHours": { "avg": 0 },
+		"transitionHours": { "avg": 72 },
+		"transitionedStack": { "type": "item", "code": "eatyourworms:earthworm-fistful-jerky" },
+		"transitionRatio": 0.5
+    }],
   "*-charred": [{
     "type": "Perish",
 		"freshHours": { "avg": 120 },
 		"transitionHours": { "avg": 6 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.5
+  }],
+   "*-jerky": [{
+    "type": "Perish",
+		"freshHours": { "avg": 504 },
+		"transitionHours": { "avg": 48 },
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 0.5
   }]
@@ -177,6 +227,17 @@
               "code": "eatyourworms:earthworm-fistful-charred"
             },
             "requiresContainer": false
+      },
+      "*-jerky": {
+            "meltingPoint": 150,
+            "meltingDuration": 45,
+            "smeltedRatio": 1,
+            "smeltingType": "cook",
+            "smeltedStack": {
+              "type": "item",
+              "code": "eatyourworms:earthworm-fistful-charred"
+            },
+            "requiresContainer": false
       }
   },
 
@@ -184,7 +245,8 @@
     "*-raw": {"base": "eatyourworms:block/food/pie/fill-earthworm"},
     "*-cooked": {"base": "eatyourworms:block/food/pie/fill-earthworm-cooked"},
     "*-dried": {"base": "eatyourworms:block/food/pie/fill-earthworm-crusty"},
-    "*-charred": {"base": "eatyourworms:block/food/pie/fill-earthworm-charred"}
+    "*-charred": {"base": "eatyourworms:block/food/pie/fill-earthworm-charred"},
+    "*-jerky": {"base": "eatyourworms:block/food/pie/fill-earthworm-jerky"}
   },
   "creativeinventory": {"general": ["*"],"items": ["*"],"eatyourworms": ["*"]},
   "maxStackSize": 64,
