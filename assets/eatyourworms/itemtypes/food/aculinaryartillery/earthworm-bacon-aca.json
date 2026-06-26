@@ -12,12 +12,10 @@
       }
     }
   ],
-  "texture": { 
-    "base": "eatyourworms:block/food/pie/fill-earthworm-bacon"},
 
-  "shape": {
-    "base": "eatyourworms:item/food/wormbacon"
-  },
+  "texture": {"base": "eatyourworms:block/food/pie/fill-earthworm-bacon"},
+  "shape": {"base": "eatyourworms:item/food/wormbacon"},
+
   "attributes": {
     "foodTags": ["meat"],
     "groundStorageTransform": {
@@ -37,14 +35,14 @@
             "game:oilportion" : { "saturation": 10, "health": 0.5, "foodcategory": "Protein" }
         }
   },
-  "transitionableProps": {
+  "transitionableProps": [{
     "type": "Perish",
     "freshHours": {"avg": 48}, 
     "transitionHours": {"avg": 24}, 
     "transitionedStack": {"type": "item","code": "game:rot"}, 
     "transitionRatio": 0.3
-  },
-  "creativeinventory": {"general": ["*"],"items": ["*"],"creatures": ["*"],"tools": ["*"],"eatyourworms": ["*"]},
+  }],
+  "creativeinventory": {"general": ["*"],"items": ["*"], "eatyourworms": ["*"]},
   "guiTransform": {
     "rotation": {"x": -52,"y": 1,"z": 4},
     "origin": {"x": 0.5,"y": 0,"z": 0.5},
@@ -57,9 +55,9 @@
     "scale": 5
   },
   "tpHandTransform": {
-    "translation": {"x": -0.78,"y": -0.15,"z": -0.6},
+    "translation": {"x": -0.7799,"y": -0.63,"z": -0.6},
     "rotation": {"x": 90,"y": -37,"z": 0},
     "origin": {"x": 0.5,"y": 0,"z": 0.5},
-    "scale": 0.85
+    "scale": 0.8
   }
 }
