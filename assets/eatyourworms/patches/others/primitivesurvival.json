@@ -91,4 +91,36 @@
         },
         "dependsOn": [{ "modid": "primitivesurvival"}]
     }
+    ,
+    { 
+        "file": "primitivesurvival:itemtypes/entity/land/nightcrawler",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/transitionableProps", 
+        "value":{
+            "type": "dry",
+            "freshHours": { "avg": 24 },
+            "transitionHours": { "avg": 24 },
+            "transitionedStack": { "type": "item", "code": "eatyourworms:earthworm-dried" },
+            "transitionRatio": 0.5
+    
+        },
+        "dependsOn": [{ "modid": "primitivesurvival"}]
+    },
+    { 
+        "file": "primitivesurvival:itemtypes/entity/land/nightcrawler",
+        "side": "server",
+        "op": "addmerge",
+        "path": "/bakingProperties", 
+        "value":{
+            "temp": 160,
+            "levelFrom": 0.25,
+            "levelTo": 0.5,
+            "startScaleY": 0.95,
+            "endScaleY": 1.1,
+            "resultCode": "primitivesurvival:nightcrawler",
+            "initialCode": "eatyourworms:earthworm-dried"
+        },
+        "dependsOn": [{ "modid": "primitivesurvival"}]
+    }
 ]
