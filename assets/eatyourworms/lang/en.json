@@ -73,5 +73,8 @@
 
     "itemdesc-eatyourworms:item-earthworm-charred": "No one likes charred worm...",
 
+    "eatyourworms:item-earthworm-bacon": "Worm Bacon",
+    "itemdesc-eatyourworms:item-earthworm-bacon": "Wacon if you will",
+
     "game:tabname-eatyourworms": "Eat Your Worms"
 }
