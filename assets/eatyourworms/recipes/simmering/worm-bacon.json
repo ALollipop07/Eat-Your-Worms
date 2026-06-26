@@ -2,7 +2,7 @@
     {
 		"Ingredients": [
 			{ "type": "item", "code": "game:oilportion", "quantity": 10 },
-			{ "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }
+			{ "type": "item", "code": "game:creature-earthworm-dead", "quantity": 1 }
 		],
 		"Simmering": {
 			"meltingPoint": 200,
@@ -16,8 +16,8 @@
 
 	{
 		"Ingredients": [
-			{ "type": "item", "code": "game:far-rendered", "quantity": 1 },
-			{ "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }
+			{ "type": "item", "code": "game:fat-rendered", "quantity": 1 },
+			{ "type": "item", "code": "game:creature-earthworm-dead", "quantity": 1 }
 		],
 		"Simmering": {
 			"meltingPoint": 200,
