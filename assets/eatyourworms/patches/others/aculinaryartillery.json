@@ -12,5 +12,73 @@
         "path": "/enabled", 
         "value": false,
         "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+
+
+    { 
+        "file": "eatyourworms:recipes/grid/earthworm-fistful",
+        "op": "addmerge",
+        "path": "/-", 
+        "value": {
+            "ingredientPattern": "BBB",
+            "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "eatyourworms:earthworm-bacon",
+                "quantity": 3
+            }
+            },
+            "width": 3,
+            "height": 1,
+            "output": {
+                "type": "item",
+                "code": "eatyourworms:earthworm-fistful-bacon"
+            }
+        },
+        "dependsOn": [ { "modid": "aculinaryartillery"} ]
+    },
+
+
+    { 
+        "file": "eatyourworms:recipes/simmering/worm-bacon",
+        "op": "add",
+        "path": "/0/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:recipes/simmering/worm-bacon",
+        "op": "add",
+        "path": "/1/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:recipes/simmering/worm-bacon",
+        "op": "add",
+        "path": "/3/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:recipes/simmering/worm-bacon",
+        "op": "add",
+        "path": "/4/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:itemtypes/food/aculinaryartillery/earthworm-bacon-aca",
+        "op": "add",
+        "path": "/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:itemtypes/food/aculinaryartillery/earthworm-fistful-bacon-aca",
+        "op": "add",
+        "path": "/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
     }
 ]

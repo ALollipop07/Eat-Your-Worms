@@ -90,5 +90,35 @@
             "eatyourworms": ["*"]
         },
         "dependsOn": [{ "modid": "primitivesurvival"}]
+    },
+
+    { 
+        "file": "eatyourworms:recipes/grid/earthworm-fistful",
+        "op": "addmerge",
+        "path": "/-", 
+        "value": {
+           "ingredientPattern": "WK",
+            "ingredients": {
+            "K": {
+                "type": "item",
+                "tags": [
+                "tool-knife"
+                ],
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "primitivesurvival:nightcrawler"
+            }
+            },
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "output": {
+            "type": "item",
+            "code": "game:creature-earthworm-dead"
+            }
+        },
+        "dependsOn": [ { "modid": "primitivesurvival"} ]
     }
 ]

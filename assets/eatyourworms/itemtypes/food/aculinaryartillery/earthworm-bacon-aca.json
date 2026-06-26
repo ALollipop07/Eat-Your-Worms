@@ -1,0 +1,64 @@
+{
+  "code": "earthworm-bacon",
+  "heldRightReadyAnimation": null,
+  "heldTpUseAnimation": null,
+  "maxstacksize": 64,
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Messy12",
+        "collisionBox": {"x1": 0,"y1": 0,"z1": 0,"x2": 1,"y2": 0.125,"z2": 1}
+      }
+    }
+  ],
+
+  "texture": {"base": "eatyourworms:block/food/pie/fill-earthworm-bacon"},
+  "shape": {"base": "eatyourworms:item/food/wormbacon"},
+
+  "attributes": {
+    "foodTags": ["meat"],
+    "groundStorageTransform": {
+      "translation": { "x": 0.5, "y": 0, "z": 0.5 }
+    },
+    "handbook": {
+      "groupBy": [
+        "creature-earthworm",
+        "creature-earthworm-dead",
+        "earthworm-bacon"
+      ]
+    }
+  },
+
+  "nutritionProps": {
+    "satiety": 30,
+    "health": 0.5,
+    "foodcategory": "Protein"
+  },
+
+  "transitionableProps": [{
+    "type": "Perish",
+    "freshHours": {"avg": 48}, 
+    "transitionHours": {"avg": 24}, 
+    "transitionedStack": {"type": "item","code": "game:rot"}, 
+    "transitionRatio": 0.3
+  }],
+  "creativeinventory": {"general": ["*"],"items": ["*"], "eatyourworms": ["*"]},
+ "guiTransform": {
+    "rotation": {"x": -66,"y": 1,"z": 4},
+    "origin": {"x": 0.3,"y": 3.7,"z": -1.6},
+    "scale": 4.66
+  },
+  "groundTransform": {
+    "translation": {"x": 0,"y": 0,"z": 0},
+    "rotation": {"x": 0,"y": 0,"z": 0},
+    "origin": {"x": 0.5,"y": 0,"z": 0.5},
+    "scale": 5
+  },
+  "tpHandTransform": {
+    "translation": {"x": -0.7799,"y": 0.7,"z": -0.6},
+    "rotation": {"x": 90,"y": -37,"z": 0},
+    "origin": {"x": 0.5,"y": 0,"z": 0.5},
+    "scale": 0.8
+  }
+}

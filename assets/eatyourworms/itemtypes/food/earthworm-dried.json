@@ -30,6 +30,17 @@
         }
       }
     },
+
+    "bakingPropertie": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "eatyourworms:earthworm-dried",
+        "initialCode": "eatyourworms:earthworm-jerky"
+    },
+
     "onDisplayTransform": {
       "origin": {
         "x": 0.5,
@@ -48,14 +59,27 @@
     },
     "handbook": {
       "groupBy": [
-        "fishingbait-*",
         "creature-earthworm",
-        "creature-earthworm-dead"
+        "creature-earthworm-dead",
+        "earthworm-dried"
       ]
     }
   },
+
+
+  "combustibleProps": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": {
+          "type": "item",
+          "code": "eatyourworms:earthworm-charred"
+      },
+      "requiresContainer": false
+  },
   "nutritionProps":{
-      "satiety": 45,
+      "satiety": 15,
       "health": 0,
       "foodcategory": "Protein"
   },
@@ -65,7 +89,13 @@
 		"transitionHours": { "avg": 12 },
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 0.5
-  }],
+   },
+    {"type": "dry",
+		"freshHours": { "avg": 0 },
+		"transitionHours": { "avg": 36 },
+		"transitionedStack": { "type": "item", "code": "eatyourworms:earthworm-jerky" },
+		"transitionRatio": 0.5
+    }],
 
   "shape": {
     "base": "eatyourworms:item/food/dehydrated-worm"
@@ -86,22 +116,17 @@
   },
 
   "guiTransform": {
-    "translation": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
     "rotation": {
-      "x": 142,
-      "y": 9,
-      "z": 1
+      "x": 110,
+      "y": 10,
+      "z": -2
     },
     "origin": {
-      "x": 0.45,
-      "y": 0.1,
+      "x": 0.5,
+      "y": -0,
       "z": 0.5
     },
-    "scale": 3.36
+    "scale": 5.81
   },
   "tpHandTransform": {
     "translation": {

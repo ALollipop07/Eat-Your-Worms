@@ -14,6 +14,8 @@
     "eatyourworms:item-earthworm-fistful-cooked":"Fistful of cooked worms",
     "eatyourworms:item-earthworm-fistful-dried":"Fistful of dried worms",
     "eatyourworms:item-earthworm-fistful-charred":"Fistful of charred worms",
+    "eatyourworms:item-earthworm-fistful-jerky":"Fistful of worm jerky",
+    "eatyourworms:item-earthworm-fistful-bacon":"Fistful of worm bacon",
 
 
     "eatyourworms:item-earthworm-bread-spelt-dough": "Worm-stuffed spelt dough",
@@ -68,10 +70,15 @@
     "game:meal-ingredient-soup-prisecondarymary-earthworm": "cooked worm",
     
     "eatyourworms:item-earthworm-cooked": "Cooked worm",
-    "eatyourworms:item-earthworm-dried":"Dried worms",
+    "eatyourworms:item-earthworm-dried":"Dried worm",
     "eatyourworms:item-earthworm-charred": "Charred worm",
 
     "itemdesc-eatyourworms:item-earthworm-charred": "No one likes charred worm...",
+
+    "eatyourworms:item-earthworm-bacon": "Worm Bacon",
+    "itemdesc-eatyourworms:item-earthworm-bacon": "Wacon if you will",
+
+    "eatyourworms:item-earthworm-jerky": "Worm Jerky",
 
     "game:tabname-eatyourworms": "Eat Your Worms"
 }

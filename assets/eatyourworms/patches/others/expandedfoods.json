@@ -1,0 +1,20 @@
+[
+    { 
+        "file": "eatyourworms:recipes/simmering/worm-bacon",
+        "op": "replace",
+        "path": "/0/Ingredients/0", 
+        "value": {
+            "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10
+        },
+        "dependsOn": [ { "modid": "expandedfoods"} ]
+    },
+    { 
+        "file": "eatyourworms:recipes/simmering/worm-bacon",
+        "op": "replace",
+        "path": "/2/Ingredients/0", 
+        "value": {
+            "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 90
+        },
+        "dependsOn": [ { "modid": "expandedfoods"} ]
+    }
+]
