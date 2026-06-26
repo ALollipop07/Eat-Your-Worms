@@ -8,22 +8,12 @@
         },
         "dependsOn": [ { "modid": "expandedfoods"} ]
     },
-
     { 
-        "file": "eatyourworms:itemtypes/food/aculinaryartillery/earthworm-bacon-aca",
-        "op": "addmerge",
-        "path": "/attributes/expandedNutritionProps", 
+        "file": "eatyourworms:recipes/simmering/worm-bacon",
+        "op": "replace",
+        "path": "/2/Ingredients/0", 
         "value": {
-            "expandedfoods:foodoilportion-*" : { "saturation": 10, "health": 0.5, "foodcategory": "Protein" }
-        },
-        "dependsOn": [ { "modid": "expandedfoods"} ]
-    },
-    { 
-        "file": "eatyourworms:itemtypes/food/aculinaryartillery/earthworm-bacon-aca",
-        "op": "remove",
-        "path": "/attributes/expandedNutritionProps", 
-        "value": {
-            "game:oilportion" : { "saturation": 10, "health": 0.5, "foodcategory": "Protein" }
+            "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 90
         },
         "dependsOn": [ { "modid": "expandedfoods"} ]
     }
