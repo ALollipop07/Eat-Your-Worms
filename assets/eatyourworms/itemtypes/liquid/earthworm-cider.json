@@ -6,7 +6,8 @@
     {
       "code": "type",
       "states": [
-        "earthworm"
+        "earthworm-juiceportion",
+        "earthworm-cider"
       ]
     }
   ],

@@ -80,5 +80,20 @@
         "path": "/enabled", 
         "value": false,
         "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+
+    { 
+        "file": "eatyourworms:itemtypes/liquid/aculinaryartillery/earthworm-syrup-aca",
+        "op": "add",
+        "path": "/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:recipes/simmering/worm-syrup",
+        "op": "add",
+        "path": "/0/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
     }
 ]
