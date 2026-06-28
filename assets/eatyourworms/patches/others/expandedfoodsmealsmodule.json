@@ -2,33 +2,30 @@
     { 
         "file": "expandedfoods:recipes/cooking/augratin",
         "op": "addmerge",
-        "path": "/ingredients/5", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/5/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/cooking/augratin",
         "op": "addmerge",
-        "path": "/ingredients/6", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/6/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/cooking/augratin",
         "op": "addmerge",
-        "path": "/ingredients/10", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/10/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
-            ]},
+            ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
 
@@ -36,22 +33,20 @@
     { 
         "file": "expandedfoods:recipes/mixing/salad",
         "op": "addmerge",
-        "path": "/ingredients/6", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/6/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/mixing/salad",
         "op": "addmerge",
-        "path": "/ingredients/9", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/9/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
 
@@ -59,33 +54,30 @@
     { 
         "file": "expandedfoods:recipes/cooking/pastahot",
         "op": "addmerge",
-        "path": "/ingredients/6", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/6/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/cooking/pastahot",
         "op": "addmerge",
-        "path": "/ingredients/7", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/7/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/cooking/pastahot",
         "op": "addmerge",
-        "path": "/ingredients/10", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/10/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
 
@@ -93,33 +85,30 @@
     { 
         "file": "expandedfoods:recipes/mixing/pastacold",
         "op": "addmerge",
-        "path": "/ingredients/5", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/5/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/mixing/pastacold",
         "op": "addmerge",
-        "path": "/ingredients/6", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/6/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/mixing/pastacold",
         "op": "addmerge",
-        "path": "/ingredients/10", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/10/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
 
@@ -127,33 +116,30 @@
     { 
         "file": "expandedfoods:recipes/cooking/riceandbeans",
         "op": "addmerge",
-        "path": "/ingredients/6", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/6/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/cooking/riceandbeans",
         "op": "addmerge",
-        "path": "/ingredients/7", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/7/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-fistful-raw",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]},
             {"type": "item", "code": "eatyourworms:earthworm-fistful-dried",  "shapeElement": "bowl/worm2/*", "textureMapping": ["worm", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/cooking/riceandbeans",
         "op": "addmerge",
-        "path": "/ingredients/8", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/8/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
 
@@ -161,33 +147,30 @@
     { 
         "file": "expandedfoods:recipes/cooking/compote",
         "op": "addmerge",
-        "path": "/ingredients/0", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/0/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/syrup/*", "textureMapping": ["syrup", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
     { 
         "file": "expandedfoods:recipes/cooking/compote",
         "op": "addmerge",
-        "path": "/ingredients/4", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/4/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
 
 
     { 
-        "file": "expandedfoods:recipes/mixing/yoghurt",
+        "file": "expandedfoods:recipes/mixing/yogurtmeal",
         "op": "addmerge",
-        "path": "/ingredients/9", 
-        "value": {
-            "validStacks": [
+        "path": "/ingredients/9/validStacks", 
+        "value": [
             {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
-        ]},
+        ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     }
 ]
