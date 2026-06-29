@@ -39,7 +39,7 @@
       },
       "ratio": 0.5
     },
-    "waterTightContainerPropsByType": {
+    "waterTightContainerProps": {
       "containable": true,
       "itemsPerLitre": 100,
       "textureByType": {

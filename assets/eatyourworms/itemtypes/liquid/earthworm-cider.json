@@ -103,17 +103,10 @@
   "transitionableProps": [
     {
       "type": "Perish",
-      "freshHours": {
-        "avg": 3360
-      },
-      "transitionHours": {
-        "avg": 48
-      },
-      "transitionedStack": {
-        "type": "item",
-        "code": "game:rot"
-      },
-      "transitionRatio": 0.005
+      "freshHours": { "avg": 3360 },
+      "transitionHours": { "avg": 144 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
     }
   ]
 }

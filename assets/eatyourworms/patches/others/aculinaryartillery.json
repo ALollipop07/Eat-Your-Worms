@@ -98,18 +98,27 @@
     },
 
 
+    { 
+        "file": "eatyourworms:itemtypes/liquid/aculinaryartillery/earthworm-agingcider-aca",
+        "op": "add",
+        "path": "/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+    { 
+        "file": "eatyourworms:itemtypes/liquid/aculinaryartillery/earthworm-agingspirit-aca",
+        "op": "add",
+        "path": "/enabled", 
+        "value": false,
+        "dependsOn": [ { "modid": "aculinaryartillery", "invert": true } ]
+    },
+
+
     {
         "file": "eatyourworms:itemtypes/liquid/earthworm-cider",
         "op": "addmerge",
         "path": "/transitionableProps",
         "value": [
-        {
-            "type": "Perish",
-            "freshHours": { "avg": 3360 },
-            "transitionHours": { "avg": 144 },
-            "transitionedStack": { "type": "item", "code": "game:vinegarportion" },
-            "transitionRatio": 1
-        },
         {
             "type": "Cure",
             "freshHours": { "avg": 3360 },
