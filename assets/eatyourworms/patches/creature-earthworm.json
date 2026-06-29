@@ -1,26 +1,5 @@
 [
     { 
-        "file": "game:blocktypes/clay/fired/pot",
-        "side": "server",
-        "op": "addmerge",
-        "path": "/attributesByType/claypot-blue-cooked/textureMapping", 
-        "value": {
-            "creature-earthworm-dead": ["worm", "earthworm"],
-            "earthworm-cooked": ["worm", "earthworm-cooked"]}
-    },
-    { 
-        "file": "game:blocktypes/clay/fired/pot",
-        "side": "server",
-        "op": "addmerge",
-        "path": "/textures", 
-        "value":{
-            "earthworm": {"base": "eatyourworms:block/food/meal/earthworm"},
-            "earthworm-cooked": {"base": "eatyourworms:block/food/meal/earthworm-cooked"}
-        }
-    },
-
-
-    { 
         "file": "game:itemtypes/creature/creature-earthworm-dead",
         "side": "server",
         "op": "addmerge",

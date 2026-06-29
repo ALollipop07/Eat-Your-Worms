@@ -1,21 +1,15 @@
 {
-  "code": "spiritportion",
+  "code": "earthworm-spiritportion",
   "class": "ItemLiquidPortion",
   "matterState": "liquid",
-  "variantGroups": [
-    {
-      "code": "type",
-      "states": [
-        "earthworm"
-      ]
-    }
-  ],
   "attributes": {
     "handbook": {
       "ignoreCreativeInvStacks": true,
-      "groupBy": [
-        "spiritportion-*"
-      ]
+      "groupBy": ["earthworm-spiritportion*"]
+    },
+    "nutritionPropsWhenInMeal": {
+      "saturation": 15,
+      "foodcategory":"NoNutrition"
     },
     "distillationProps": {
       "distilledStack": {
@@ -38,10 +32,7 @@
         "action": "DropContents",
         "stack": {
           "type": "item",
-          "code": "eatyourworms:spiritportion-{type}",
-          "states": [
-            "earthworm"
-          ]
+          "code": "eatyourworms:earthworm-spiritportion"
         }
       },
       "nutritionPropsPerLitre": {
@@ -73,7 +64,7 @@
             "ucontents": [
               {
                 "type": "item",
-                "code": "eatyourworms:spiritportion-{type}",
+                "code": "eatyourworms:earthworm-spiritportion",
                 "makefull": true
               }
             ]

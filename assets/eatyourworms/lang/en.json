@@ -1,13 +1,29 @@
 {
     "eatyourworms:item-earthworm-fistful-raw":"Fistful of raw worms",
-    "eatyourworms:item-spiritportion-earthworm":"Wormy brandy",
-    "eatyourworms:item-ciderportion-earthworm":"Wormy cider",
-    "eatyourworms:item-earthworm-juiceportion":"Wormy juice",
-    "eatyourworms:incontainer-item-spiritportion-earthworm":"Wormy brandy",
-    "eatyourworms:incontainer-item-ciderportion-earthworm":"Wormy cider",
-    "eatyourworms:incontainer-item-earthworm-juiceportion":"Wormy juice",
     "eatyourworms:item-earthworm-mash-wet":"Wet wormy mash",
     "eatyourworms:item-earthworm-mash-dry":"Dry wormy mash",
+
+    "eatyourworms:item-earthworm-spiritportion":"Wormy brandy",
+    "eatyourworms:item-earthworm-ciderportion":"Wormy cider",
+    "eatyourworms:item-earthworm-juiceportion":"Wormy juice",
+    "eatyourworms:item-earthworm-syrupportion":"Worm Essence",
+    "eatyourworms:incontainer-item-earthworm-spiritportion":"Wormy brandy",
+    "eatyourworms:incontainer-item-earthworm-ciderportion":"Wormy cider",
+    "eatyourworms:incontainer-item-earthworm-juiceportion":"Wormy juice",
+    "eatyourworms:incontainer-item-earthworm-syrupportion":"Worm Essence",
+
+    "eatyourworms:item-earthworm-spiritportion-aged-strong":"Strong wormy brandy",
+    "eatyourworms:item-earthworm-ciderportion-aged-strong":"Strong wormy cider",
+    "eatyourworms:incontainer-item-earthworm-spiritportion-aged-strong":"Strong wormy brandy",
+    "eatyourworms:incontainer-item-earthworm-ciderportion-aged-strong":"Strong wormy cider",
+
+    "eatyourworms:item-earthworm-spiritportion-aged-vintage":"Vintage wormy brandy",
+    "eatyourworms:item-earthworm-ciderportion-aged-vintage":"Vintage wormy cider",
+    "eatyourworms:incontainer-item-earthworm-spiritportion-aged-vintage":"Vintage wormy brandy",
+    "eatyourworms:incontainer-item-earthworm-ciderportion-aged-vintage":"Vintage wormy cider",
+
+    "itemdesc-earthworm-spiritportion-aged-vintage":"I respect the lengths you've gone for this",
+
 
     "itemdesc-earthworm-fistful-raw": "Anyone else's mouth watering?",
     
@@ -56,8 +72,8 @@
     "pie-single-eatyourworms:earthworm-fistful-raw-perfect": "Worm pie",
     "pie-single-eatyourworms:earthworm-fistful-raw-charred": "Worm pie (charred)",
 
-    "itemdesc-eatyourworms:item-earthworm-*-*-perfect": "Just like mother used to make",
-    "itemdesc-eatyourworms:item-earthworm-*-*-charred": "Congratulations, you burnt it",
+    "itemdesc-earthworm-*-*-perfect": "Just like mother used to make",
+    "itemdesc-earthworm-*-*-charred": "Congratulations, you burnt it",
 
     "game:recipeingredient-item-creature-insturmentalcase": "worm",
     "game:meal-ingredient-stew-primary-creature": "Worm",
@@ -68,15 +84,16 @@
     "game:meal-ingredient-stew-secondary-earthworm": "cooked worm",
     "game:meal-ingredient-soup-primary-earthworm": "Cooked worm",
     "game:meal-ingredient-soup-prisecondarymary-earthworm": "cooked worm",
+    "eatyourworms:recipeingredient-item-earthworm-insturmentalcase": "worm",
     
     "eatyourworms:item-earthworm-cooked": "Cooked worm",
     "eatyourworms:item-earthworm-dried":"Dried worm",
     "eatyourworms:item-earthworm-charred": "Charred worm",
 
-    "itemdesc-eatyourworms:item-earthworm-charred": "No one likes charred worm...",
+    "itemdesc-earthworm-charred": "No one likes charred worm...",
 
     "eatyourworms:item-earthworm-bacon": "Worm Bacon",
-    "itemdesc-eatyourworms:item-earthworm-bacon": "Wacon if you will",
+    "itemdesc-earthworm-bacon": "Wacon if you will",
 
     "eatyourworms:item-earthworm-jerky": "Worm Jerky",
 

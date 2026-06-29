@@ -1,0 +1,15 @@
+[
+  {
+	"Ingredients": [
+		{ "type": "item", "code": "eatyourworms:earthworm-juiceportion", "quantity": 100 }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 48,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "eatyourworms:earthworm-syrupportion", "quantity": 25 },
+		"requiresContainer": false
+	}
+  }
+]

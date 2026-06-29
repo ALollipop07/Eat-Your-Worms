@@ -1,0 +1,173 @@
+{
+  "code": "earthworm-ciderportion-aged",
+  "class": "ItemLiquidPortion",
+  "matterState": "liquid",
+
+  "variantgroups": [
+    {
+      "code": "age",
+      "states": [
+        "strong",
+        "vintage"
+      ]
+    }
+  ],
+
+  "attributes": {
+    "handbook": {
+      "ignoreCreativeInvStacks": true,
+      "groupBy": ["earthworm-ciderportion*"]
+    },
+
+    "nutritionPropsWhenInMealByType": {
+      "*-strong": {
+        "satiety": 20, 
+        "health": 0.5, 
+        "foodcategory": "Protein"
+      },
+      "*-vintage": {
+        "satiety": 25, 
+        "health": 1, 
+        "foodcategory": "Protein"
+      }
+    },
+
+    "distillationProps": {
+        "distilledStack": {
+          "type": "item",
+          "code": "eatyourworms:earthworm-spiritportion"
+        },
+        "ratio": 0.1
+    },
+    "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "textureByType": {
+        "*-strong": {
+          "base": "eatyourworms:block/liquid/wormcider",
+          "alpha": 160
+        },
+        "*-vintage": {
+              "base": "eatyourworms:block/liquid/wormcider",
+              "alpha": 140
+            }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": {
+          "type": "item",
+          "code": "eatyourworms:earthworm-ciderportion-aged-{age}"
+        }
+      },
+      "nutritionPropsPerLitreByType": {
+        "*-strong": {
+          "saturation": 90,
+          "intoxication": 0.3,
+          "health": 0.5,
+          "foodcategory": "Protein"
+        },
+        "*-vintage": {
+          "saturation": 100,
+          "intoxication":  0.45,
+          "health": 1,
+          "foodcategory": "Protein"
+        }
+        }
+    }
+  },
+  "shape": {
+    "base": "game:item/liquid"
+  },
+  "textureByType": {
+      "*-strong": {
+              "base": "eatyourworms:block/liquid/wormcider",
+              "alpha": 160
+            },
+      "*-vintage": {
+             "base": "eatyourworms:block/liquid/wormcider",
+             "alpha": 140
+      }
+  },
+  "creativeinventoryStacks": [
+    {
+      "tabs": [
+        "general",
+        "liquids",
+        "eatyourworms"
+      ],
+      "stacks": [
+        {
+          "type": "block",
+          "code": "game:woodbucket",
+          "attributes": {
+            "ucontents": [
+              {
+                "type": "item",
+                "code": "eatyourworms:earthworm-ciderportion-aged-{age}",
+                "makefull": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "maxstacksize": 5000,
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 123,
+      "y": -33,
+      "z": -13
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.5,
+      "y": -1,
+      "z": -1.4
+    }
+  },
+  "transitionablePropsByType": {
+    "*-strong": [{
+      "type": "Perish",
+    		"freshHours": { "avg": 6720 },
+    		"transitionHours": { "avg": 288 },
+    		"transitionedStack": { "type": "item", "code": "game:vinegarportion" },
+    		"transitionRatio": 1
+  	},
+	  {
+    		"type": "Cure",
+    		"freshHours": { "avg": 6720 },
+    		"transitionHours": { "avg": 2016 },
+    		"transitionedStack": { "type": "item", "code": "eatyourworms:earthworm-ciderportion-aged-vintage" },
+    		"transitionRatio": 1
+    }],
+    "*-vintage": [{
+      "type": "Perish",
+    		"freshHours": { "avg": 6720 },
+    		"transitionHours": { "avg": 288 },
+    		"transitionedStack": { "type": "item", "code": "game:vinegarportion" },
+			"transitionRatio": 0.005
+  	},
+	  {
+    		"type": "Cure",
+    		"freshHours": { "avg": 6720 },
+    		"transitionHours": { "avg": 2016 },
+    		"transitionedStack": { "type": "item", "code": "eatyourworms:earthworm-ciderportion-aged-vintage" },
+    		"transitionRatio": 1
+    }]
+  }
+}
