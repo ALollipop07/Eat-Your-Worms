@@ -3,6 +3,7 @@
     "eatyourworms:item-spiritportion-earthworm":"Wormy brandy",
     "eatyourworms:item-ciderportion-earthworm":"Wormy cider",
     "eatyourworms:item-earthworm-juiceportion":"Wormy juice",
+    "eatyourworms:item-earthworm-syrupportion":"Essence of Worm",
     "eatyourworms:incontainer-item-spiritportion-earthworm":"Wormy brandy",
     "eatyourworms:incontainer-item-ciderportion-earthworm":"Wormy cider",
     "eatyourworms:incontainer-item-earthworm-juiceportion":"Wormy juice",
@@ -69,6 +70,7 @@
     "game:meal-ingredient-stew-secondary-earthworm": "cooked worm",
     "game:meal-ingredient-soup-primary-earthworm": "Cooked worm",
     "game:meal-ingredient-soup-prisecondarymary-earthworm": "cooked worm",
+    "eatyourworms:recipeingredient-item-earthworm-insturmentalcase": "worm",
     
     "eatyourworms:item-earthworm-cooked": "Cooked worm",
     "eatyourworms:item-earthworm-dried":"Dried worm",
