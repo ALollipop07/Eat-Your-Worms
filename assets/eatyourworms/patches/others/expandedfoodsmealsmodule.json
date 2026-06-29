@@ -24,7 +24,7 @@
         "op": "addmerge",
         "path": "/ingredients/10/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "wormsyrup"]}
             ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
@@ -45,7 +45,7 @@
         "op": "addmerge",
         "path": "/ingredients/9/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "wormsyrup"]}
         ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
@@ -76,7 +76,7 @@
         "op": "addmerge",
         "path": "/ingredients/10/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "wormsyrup"]}
         ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
@@ -107,7 +107,7 @@
         "op": "addmerge",
         "path": "/ingredients/10/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "wormsyrup"]}
         ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
@@ -138,7 +138,7 @@
         "op": "addmerge",
         "path": "/ingredients/8/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "wormsyrup"]}
         ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
@@ -149,7 +149,7 @@
         "op": "addmerge",
         "path": "/ingredients/0/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/syrup/*", "textureMapping": ["syrup", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/syrup/*", "textureMapping": ["syrup", "wormsyrup"]}
         ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
@@ -158,7 +158,7 @@
         "op": "addmerge",
         "path": "/ingredients/4/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "wormsyrup"]}
         ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     },
@@ -169,7 +169,7 @@
         "op": "addmerge",
         "path": "/ingredients/9/validStacks", 
         "value": [
-            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "earthworm"]}
+            {"type": "item", "code": "eatyourworms:earthworm-syrupportion",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "wormsyrup"]}
         ],
         "dependsOn": [ { "modid": "efmealsmodule"} ]
     }
