@@ -1,27 +1,15 @@
 {
-  "code": "ciderportion",
+  "code": "earthworm-ciderportion",
   "class": "ItemLiquidPortion",
   "matterState": "liquid",
-  "variantGroups": [
-    {
-      "code": "type",
-      "states": [
-        "earthworm-juiceportion",
-        "earthworm-cider"
-      ]
-    }
-  ],
   "attributes": {
     "handbook": {
-      "ignoreCreativeInvStacks": true,
-      "groupBy": [
-        "ciderportion-*"
-      ]
+      "ignoreCreativeInvStacks": true
     },
     "distillationProps": {
         "distilledStack": {
           "type": "item",
-          "code": "eatyourworms:spiritportion-earthworm"
+          "code": "eatyourworms:earthworm-spiritportion"
         },
         "ratio": 0.1
     },
@@ -39,7 +27,7 @@
         "action": "DropContents",
         "stack": {
           "type": "item",
-          "code": "eatyourworms:ciderportion-{type}",
+          "code": "eatyourworms:earthworm-ciderportion}",
           "states": [
             "earthworm"
           ]
@@ -76,7 +64,7 @@
             "ucontents": [
               {
                 "type": "item",
-                "code": "eatyourworms:ciderportion-{type}",
+                "code": "eatyourworms:earthworm-ciderportion",
                 "makefull": true
               }
             ]
