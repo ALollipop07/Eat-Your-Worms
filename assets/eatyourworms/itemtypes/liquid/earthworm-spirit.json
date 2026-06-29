@@ -4,7 +4,12 @@
   "matterState": "liquid",
   "attributes": {
     "handbook": {
-      "ignoreCreativeInvStacks": true
+      "ignoreCreativeInvStacks": true,
+      "groupBy": ["earthworm-spiritportion*"]
+    },
+    "nutritionPropsWhenInMeal": {
+      "saturation": 15,
+      "foodcategory":"NoNutrition"
     },
     "distillationProps": {
       "distilledStack": {
@@ -27,10 +32,7 @@
         "action": "DropContents",
         "stack": {
           "type": "item",
-          "code": "eatyourworms:earthworm-spiritportion",
-          "states": [
-            "earthworm"
-          ]
+          "code": "eatyourworms:earthworm-spiritportion"
         }
       },
       "nutritionPropsPerLitre": {

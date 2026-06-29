@@ -16,5 +16,43 @@
             "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 90
         },
         "dependsOn": [ { "modid": "expandedfoods"} ]
+    },
+
+
+
+    {
+        "file": "eatyourworms:itemtypes/liquid/earthworm-cider",
+        "op": "addmerge",
+        "path": "/attributes/handbook/extraSections",
+        "value": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }],
+        "side": "server",
+        "dependsOn": [ { "modid": "expandedfoods"} ]
+    },
+    {
+        "file": "eatyourworms:itemtypes/liquid/aculinaryartillery/earthworm-agingcider-aca",
+        "op": "addmerge",
+        "path": "/attributes/handbook/extraSections",
+        "value": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }],
+        "side": "server",
+        "dependsOn": [ { "modid": "expandedfoods"} ]
+    },
+
+    
+
+    {
+        "file": "eatyourworms:itemtypes/liquid/earthworm-spirit",
+        "op": "addmerge",
+        "path": "/attributes/handbook/extraSections",
+        "value": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }],
+        "side": "server",
+        "dependsOn": [ { "modid": "expandedfoods"} ]
+    },
+    {
+        "file": "eatyourworms:itemtypes/liquid/aculinaryartillery/earthworm-agingspirit-aca",
+        "op": "addmerge",
+        "path": "/attributes/handbook/extraSections",
+        "value": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }],
+        "side": "server",
+        "dependsOn": [ { "modid": "expandedfoods"} ]
     }
 ]
